@@ -1,0 +1,469 @@
+Rank,Name,Platform,Year,Genre,Publisher,Developer,Critic_Score,User_Score,NA_Sales,PAL_Sales,JP_Sales,Other_Sales,Global_Sales
+1,NEKOPARA Vol. 1,PC,N/A,Visual+Novel,Unknown  ,Neko Works  ,,,,,,,
+2,NEKOPARA Vol. 0,PC,N/A,Visual+Novel,Unknown  ,Neko Works  ,,,,,,,
+3,Doki Doki Literature Club Plus!,All,2021,Visual+Novel,Serenity Forge  ,Team Salvato  ,,,,,,,
+4,Root Letter,All,2016,Visual+Novel,PQube  ,Kadokawa Games  ,,,,,,,
+5,NEKOPARA Vol. 2,PC,N/A,Visual+Novel,Unknown  ,Neko Works  ,,,,,,,
+6,Tricolour Lovestory,PC,N/A,Visual+Novel,Unknown  ,HL-Galgame  ,,,,,,,
+7,Hatoful Boyfriend,PC,2014,Visual+Novel,Devolver Digital  ,Mediatonic Ltd.  ,,,,,,,
+8,NEKOPARA Vol. 3,PC,N/A,Visual+Novel,Unknown  ,Neko Works  ,,,,,,,
+9,The Lords of the Earth Flame,PC,N/A,Visual+Novel,Unknown  ,"Rhino Games, Inc.  ",,,,,,,
+10,Russian Horror Story,PC,N/A,Visual+Novel,Unknown  ,Footmade  ,,,,,,,
+11,Steins;Gate,PSP,2011,Visual+Novel,Kadokawa Shoten  ,Nitro+  ,,,,,0.19,,0.19
+12,Super Star,PC,N/A,Visual+Novel,Unknown  ,Dream Works  ,,,,,,,
+13,Wishmaster,PC,N/A,Visual+Novel,Unknown  ,Unknown  ,,,,,,,
+14,Steins;Gate,PC,2016,Visual+Novel,Nitro+  ,Nitro+  ,,,,,,,
+15,Tears to Tiara II: Heir of the Overlord,PS3,2014,Visual+Novel,NIS America  ,Sting  ,,,0.07,0.01,0.06,0.02,0.15
+16,Psycho-Pass: Mandatory Happiness,PS4,2016,Visual+Novel,NIS America  ,5pb. Inc.  ,,,0.1,0.02,,0.03,0.15
+17,Winter Novel,PC,2016,Visual+Novel,DeXP  ,DeXP  ,,,,,,,
+18,Go! Go! Nippon! ~My First Trip to Japan~,PC,2014,Visual+Novel,MangaGamer  ,OVERDRIVE  ,,,,,,,
+19,Utawarerumono: Mask of Truth,PS4,2017,Visual+Novel,Atlus  ,Aqua Plus  ,,,0.05,,0.07,0.01,0.13
+20,If My Heart Had Wings,PC,2013,Visual+Novel,MoeNovel  ,MoeNovel  ,,,,,,,
+21,Fate/hollow ataraxia,PSV,2014,Visual+Novel,Type-Moon  ,Type-Moon  ,,,,,0.12,,0.12
+22,Analogue: A Hate Story,PC,2012,Visual+Novel,Love Conquers All Games  ,Love Conquers All Games  ,,,,,,,
+23,Replica,PC,2016,Visual+Novel,Somi  ,Somi  ,,,,,,,
+24,fault - milestone one,PC,2013,Visual+Novel,Sekai Project  ,ALICE IN DISSONANCE  ,,,,,,,
+25,Robotics;Notes,PS3,2012,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.11,,0.11
+26,Utawarerumono: Mask of Truth,PSV,2017,Visual+Novel,Atlus  ,Aqua Plus  ,,,0.01,,0.08,0.0,0.1
+27,Uta no Prince-Sama: Debut,PSP,2012,Visual+Novel,Broccoli  ,Nippon Ichi Software  ,,,,,0.09,,0.09
+28,Tokyo Twilight Ghost Hunters,PSV,2015,Visual+Novel,Aksys Games  ,Toybox Games  ,,,0.04,0.01,0.02,0.01,0.08
+29,Steins;Gate: Darling of Loving Vows,X360,2011,Visual+Novel,5pb  ,Nitro+  ,,,,,0.08,,0.08
+30,Tokimeki Memorial Girl's Side Premium: 3rd Story,PSP,2012,Visual+Novel,Konami Digital Entertainment  ,Konami  ,,,,,0.07,,0.07
+31,Chaos;Child,PSV,2017,Visual+Novel,PQube  ,5pb. Inc.  ,,,,0.0,0.07,0.0,0.07
+32,The Silver Case,PS4,2017,Visual+Novel,NIS America  ,Grasshopper Manufacture  ,,,0.05,,0.01,0.01,0.07
+33,I Don't Have Many Friends Portable,PSP,2012,Visual+Novel,Namco Bandai Games  ,Banpresto  ,,,,,0.07,,0.07
+34,Lucian Bee's: Justice Yellow / Evil Violet,PS2,2010,Visual+Novel,5pb  ,HuneX  ,,,,,0.07,,0.07
+35,Tokyo Twilight Ghost Hunters,PS3,2015,Visual+Novel,Aksys Games  ,Toybox Games  ,,,0.03,0.0,0.02,0.01,0.07
+36,Steins;Gate: Senkei Kousoku no Phonogram,PS3,2013,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.06,,0.06
+37,Steins;Gate,PS3,2015,Visual+Novel,5pb  ,5pb. Inc.  ,,,0.01,0.02,0.02,0.01,0.06
+38,Steins;Gate,X360,2009,Visual+Novel,5pb  ,Nitro+  ,,,,,0.06,,0.06
+39,Steins;Gate: Darling of Loving Vows,PSP,2012,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.06,,0.06
+40,Fate/stay night [Réalta Nua],PSV,2012,Visual+Novel,Kadokawa Shoten  ,Type-Moon  ,,,,,0.06,,0.06
+41,Kyoukai Senjou no Horizon Portable,PSP,2013,Visual+Novel,Kadokawa Shoten  ,Tenky  ,,,,,0.05,,0.05
+42,"Love, Election and Chocolate Portable",PSP,2012,Visual+Novel,Kadokawa Shoten  ,ASCII Media Works  ,,,,,0.05,,0.05
+43,Bakemonogatari Portable,PSP,2012,Visual+Novel,Namco Bandai Games  ,Banpresto  ,,,,,0.05,,0.05
+44,New Hayarigami,PSV,2014,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,0.05,,0.05
+45,XBlaze Lost: Memories,PS3,2015,Visual+Novel,Aksys Games  ,Arc System Works  ,,,0.04,,,0.01,0.05
+46,Amnesia: Crowd,PSP,2013,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.05,,0.05
+47,Diabolik Lovers,PSP,2012,Visual+Novel,Idea Factory  ,Rejet  ,,,,,0.05,,0.05
+48,Amnesia Later,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.05,,0.05
+49,Hakuouki SSL: Sweet School Life,PSV,2014,Visual+Novel,Idea Factory  ,Design Factory  ,,,,,0.05,,0.05
+50,Aokana: Four Rhythm Across the Blue,PSV,2016,Visual+Novel,Sprite  ,Sprite  ,,,,,0.05,,0.05
+51,Kenka Bancho Otome,PSV,2016,Visual+Novel,Spike Chunsoft  ,RED Entertainment  ,,,,,0.04,,0.04
+52,White Album 2: Shiawase no Mukougawa,PS3,2012,Visual+Novel,Aqua Plus  ,Aqua Plus  ,,,,,0.04,,0.04
+53,Ore no Imouto ga Konna ni Kawaii wake ga Nai. Happy End,PS3,2013,Visual+Novel,Namco Bandai Games  ,Banpresto  ,,,,,0.04,,0.04
+54,Shin Hayarigami,PS3,2014,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,0.04,,0.04
+55,Ebikore+ Amagami,PSV,2014,Visual+Novel,Kadokawa Games  ,Enterbrain  ,,,,,0.04,,0.04
+56,Diabolik Lovers: Dark Fate,PSV,2015,Visual+Novel,Idea Factory  ,Rejet  ,,,,,0.04,,0.04
+57,Hanaoni: Yume no Tsudzuki,PSP,2012,Visual+Novel,Idea Factory  ,Design Factory  ,,,,,0.04,,0.04
+58,Date A Live: Rine Utopia,PS3,2013,Visual+Novel,Compile Heart  ,Compile Heart  ,,,,,0.04,,0.04
+59,Utawarerumono: Mask of Truth,PS3,2016,Visual+Novel,Aqua Plus  ,Aqua Plus  ,,,,,0.04,,0.04
+60,Hakuoki Zuisouroku Omokage Hana,PSV,2015,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.04,,0.04
+61,Ao no Exorcist: Genkoku no Labyrinth,PSP,2012,Visual+Novel,Namco Bandai Games  ,Bandai Namco Games  ,,,,,0.04,,0.04
+62,Bond of Ten Demons,PSP,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.04,,0.04
+63,Norn9: Norn + Nonette,PSP,2013,Visual+Novel,Idea Factory  ,Regista  ,,,,,0.04,,0.04
+64,Psycho-Pass: Mandatory Happiness,PSV,2016,Visual+Novel,NIS America  ,5pb. Inc.  ,,,,0.01,0.02,0.0,0.04
+65,The Three Kingdoms Love Story ~ The Art of Otome!,PSP,2012,Visual+Novel,Prototype  ,Prototype  ,,,,,0.04,,0.04
+66,XBLAZE Code: Embryo,PS3,2014,Visual+Novel,Aksys Games  ,Arc System Works  ,,,0.02,,0.01,0.01,0.04
+67,Even in a Game Listen to Me Girls. I Am Your Father!,PSP,2012,Visual+Novel,Namco Bandai Games  ,Banpresto  ,,,,,0.03,,0.03
+68,Diabolik Lovers: More Blood,PSP,2013,Visual+Novel,Idea Factory  ,Rejet  ,,,,,0.03,,0.03
+69,Infinite Stratos 2: Ignition Hearts,PSV,2014,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.03,,0.03
+70,Toaru Majutsu to Kagaku no Ensemble,PSP,2013,Visual+Novel,Namco Bandai Games  ,Bandai Namco Games  ,,,,,0.03,,0.03
+71,Brothers Conflict: Brilliant Blue,PSP,2013,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.03,,0.03
+72,"Moshi, Kono Sekai ni Kami-sama ga Iru to suru Naraba.",PSV,2016,Visual+Novel,Rejet  ,Rejet  ,,,,,0.03,,0.03
+73,Zero Escape: Virtue's Last Reward,3DS,2012,Visual+Novel,Aksys Games  ,Spike Chunsoft  ,9.0,,0.03,,,0.0,0.03
+74,Ren'ai 0 Kilometer,PSP,2013,Visual+Novel,Alchemist  ,ASa Project  ,,,,,0.03,,0.03
+75,Jyuzaengi: Engetsu Sangokuden,PSP,2012,Visual+Novel,Idea Factory  ,RED Entertainment  ,,,,,0.03,,0.03
+76,Nisekoi: Yomeiri!?,PSV,2015,Visual+Novel,Konami Digital Entertainment  ,Konami  ,,,,,0.03,,0.03
+77,Kyokugen Dasshutsu ADV: Zennin Shiboudesu,3DS,2012,Visual+Novel,ChunSoft  ,"Chunsoft Co., Ltd.  ",,,,,0.03,,0.03
+78,Code: Realize - Bouquet of Rainbows,PS4,2018,Visual+Novel,Aksys Games  ,Idea Factory  ,,,0.02,,,0.01,0.03
+79,Angelique Luminarise,NS,2021,Visual+Novel,Koei Tecmo  ,Ruby Party  ,,,,,,,
+80,Haruka: Beyond the Stream of Time 7,NS,N/A,Visual+Novel,Unknown  ,Koei Tecmo Games  ,,,,,,,
+81,Kiniro no Corda 4,PSV,N/A,Visual+Novel,Unknown  ,Koei Tecmo Games  ,,,,,,,
+82,Muv-Luv Alternative: Total Eclipse,PS3,2013,Visual+Novel,5pb  ,MAGES. Inc.  ,,,,,0.03,,0.03
+83,Oumagatoki: Kaidan Romance,PSP,2012,Visual+Novel,Quinrose  ,QuinRose  ,,,,,0.03,,0.03
+84,Kamigami no Asobi: Ludere Deorum,PSP,2013,Visual+Novel,Broccoli  ,Nippon Ichi Software  ,,,,,0.03,,0.03
+85,Harukanaru Toki no Naka de 5: Kazahanaki,PSP,2012,Visual+Novel,Tecmo Koei  ,Tecmo Koei Games  ,,,,,0.03,,0.03
+86,Amnesia World,PSV,2014,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.03,,0.03
+87,Tiger & Bunny On Air Jack!,PSP,2012,Visual+Novel,Namco Bandai Games  ,Bandai Namco  ,,,,,0.03,,0.03
+88,Infinite Stratos 2: Ignition Hearts,PS3,2014,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.03,,0.03
+89,Brothers Conflict: Passion Pink,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.03,,0.03
+90,Aokana: Four Rhythm Across the Blue,PS4,2020,Visual+Novel,Sprite  ,Sprite  ,,,,,0.03,,0.03
+91,Touch Shot! Love Application,PS3,2012,Visual+Novel,Compile Heart  ,Tamsoft  ,,,,,0.03,,0.03
+92,Root Letter,PS4,2016,Visual+Novel,PQube  ,Kadokawa Games  ,,,,,0.03,,0.03
+93,Steins;Gate Elite,PS4,2019,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,0.03,,0.03
+94,Tokushu Houdoubu,PSV,2012,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,0.03,,0.03
+95,Little Busters! Converted Edition,PSV,2012,Visual+Novel,Prototype  ,Prototype  ,,,,,0.03,,0.03
+96,Jyuzaengi Engetsu Sangokuden 2,PSP,2014,Visual+Novel,Idea Factory  ,RED Entertainment  ,,,,,0.03,,0.03
+97,D.C. III: Da Capo III,PSP,2013,Visual+Novel,Kadokawa Games  ,Circus  ,,,,,0.03,,0.03
+98,Wand of Fortune 2 FD: Kimi ni Sasageru Epilogue,PSP,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.03,,0.03
+99,Kyokugen Dasshutsu ADV: Zennin Shiboudesu,PSV,2012,Visual+Novel,ChunSoft  ,ChunSoft  ,,,,,0.03,,0.03
+100,Otoko Yukaku,PSV,2015,Visual+Novel,D3Publisher  ,D3 Publisher  ,,,,,0.02,,0.02
+101,Yahari Game Demo Ore no Seishun Love-Kome Hamachi Gatteiru,PSV,2013,Visual+Novel,5pb  ,MAGES. Inc.  ,,,,,0.02,,0.02
+102,Umineko no Naku Koro ni San: Shinjitsu to Gensou no Yasoukyoku,PS3,2011,Visual+Novel,Alchemist  ,Alchemist  ,,,,,0.02,,0.02
+103,Anohana: The Flower We Saw That Day,PSP,2012,Visual+Novel,5pb  ,Guyzware  ,,,,,0.02,,0.02
+104,Taishou x Alice: All in One,PSV,2016,Visual+Novel,Prototype  ,Prototype  ,,,,,0.02,,0.02
+105,Prince of Stride,PSV,2015,Visual+Novel,Kadokawa Games  ,Kadokawa Games  ,,,,,0.02,,0.02
+106,Urakata Hakuoki,PSP,2013,Visual+Novel,Idea Factory  ,Design Factory  ,,,,,0.02,,0.02
+107,Steins;Gate: Senkei Kousoku no Phonogram,X360,2013,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+108,Dunamis 15,PS3,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+109,HatsuKare * Renai Debut Sengen!,PSP,2013,Visual+Novel,FuRyu Corporation  ,Vridge Inc.  ,,,,,0.02,,0.02
+110,Geten no Hana,PSP,2013,Visual+Novel,Tecmo Koei  ,Koei Tecmo Games  ,,,,,0.02,,0.02
+111,Moujuutsukai to Oujisama: Snow Bride Portable,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+112,Collar x Malice: Unlimited,PSV,2018,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+113,The Three Kingdoms Love Story ~ The Art of Otome!,PSV,2016,Visual+Novel,Prototype  ,Prototype  ,,,,,0.02,,0.02
+114,Date A Live: Arusu Install,PS3,2014,Visual+Novel,Compile Heart  ,Compile Heart  ,,,,,0.02,,0.02
+115,Steins;Gate Elite,NS,2019,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,0.02,,0.02
+116,428: Shibuya Scramble,PS4,2018,Visual+Novel,Spike Chunsoft  ,Abstraction Games  ,,,0.01,,0.01,0.0,0.02
+117,Dance with Devils,PSV,2016,Visual+Novel,Rejet  ,Rejet  ,,,,,0.02,,0.02
+118,Sengoku Hime 3: Tenka o Kirisaku Hikari to Kage,PSP,2012,Visual+Novel,System Soft Alpha  ,System Soft Alpha  ,,,,,0.02,,0.02
+119,Genroh,PSP,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+120,Kannou Mukashibanashi Portable,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+121,Dies Irae: Amantes Amentes,PSP,2012,Visual+Novel,Views  ,Light  ,,,,,0.02,,0.02
+122,Shinken de Watashi ni Koi Shinasai! R,PS3,2012,Visual+Novel,Minato Station  ,Minato Station  ,,,,,0.02,,0.02
+123,Shiratsuyu no Kai,PSP,2013,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+124,Jake Hunter: Round of Revenge,3DS,2012,Visual+Novel,Arc System Works  ,WorkJam  ,,,,,0.02,,0.02
+125,Robotics;Notes,X360,2012,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+126,Toki no Kizuna: Hanayui Tsuzuri,PSP,2013,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+127,Arcana Famiglia: Vascello Phantasma no Majutsushi,PSP,2012,Visual+Novel,Comfort  ,HuneX  ,,,,,0.02,,0.02
+128,Vitamin R,PSP,2013,Visual+Novel,D3Publisher  ,Rejet  ,,,,,0.02,,0.02
+129,Ro-Kyu-Bu! Lost Secret,PSP,2013,Visual+Novel,Kadokawa Shoten  ,ASCII Media Works  ,,,,,0.02,,0.02
+130,Kokoro Connect: Yochi Random,PSP,2012,Visual+Novel,Namco Bandai Games  ,Banpresto  ,,,,,0.02,,0.02
+131,Konoyo no Hate de Koi o Utau Shoujo: Yu-No,PSV,2017,Visual+Novel,5pb  ,MAGES  ,,,,,0.02,,0.02
+132,Steins;Gate: Darling of Loving Vows,PS3,2012,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.02,,0.02
+133,Higurashi no Naku Koro ni Hou,NS,2018,Visual+Novel,Entergram  ,07th Expansion  ,,,,,0.02,,0.02
+134,Meiji Tokyo Renka,PSP,2013,Visual+Novel,Broccoli  ,HuneX  ,,,,,0.02,,0.02
+135,Soukoku no Kusabi: Hiiro no Kakera 3 Ashita he no Tobira,PSP,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+136,Konoyo no Hate de Koi o Utau Shoujo: Yu-No,PS4,2017,Visual+Novel,5pb  ,MAGES  ,,,,,0.02,,0.02
+137,Psycho-Pass: Mandatory Happiness,XOne,2015,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.02,,0.02
+138,Robotics;Notes,PSV,2014,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+139,Fuuraiki 3,PSV,2015,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,0.02,,0.02
+140,Starry * Sky: After Summer Portable,PSP,2013,Visual+Novel,Asgard  ,honeybee  ,,,,,0.02,,0.02
+141,XBlaze Lost: Memories,PSV,2015,Visual+Novel,Aksys Games  ,Arc System Works  ,,,0.01,,,0.0,0.02
+142,Kimikare: New Semester,PSP,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+143,Chaos;Child,PS3,2015,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.02,,0.02
+144,"Hanayaka Kana, Ware ga Ichizoku: Tasogare Polarstar",PSP,2013,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+145,Elkrone no Atelier: Dear for Otomate,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+146,Chaos;Child,PS4,2017,Visual+Novel,PQube  ,5pb. Inc.  ,,,,,0.02,,0.02
+147,Memories Off: Yubikiri no Kikou,PSP,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+148,L.G.S: Shinsetsu Houshinengi,PSP,2012,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+149,Dunamis 15,X360,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+150,Reine des Fleurs,PSV,2015,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+151,Custom Drive,PSP,2012,Visual+Novel,D3Publisher  ,Vridge Inc.  ,,,,,0.02,,0.02
+152,Ore wa Shoujo Mangaka,PSP,2012,Visual+Novel,Giza10  ,Giza10  ,,,,,0.02,,0.02
+153,Hyakka Yakou,PSV,2015,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.02,,0.02
+154,White Album 2: Shiawase no Mukougawa,PSV,2013,Visual+Novel,Aqua Plus  ,Aqua Plus  ,,,,,0.02,,0.02
+155,Storm Lover 2nd,PSP,2013,Visual+Novel,D3Publisher  ,Vridge Inc.  ,,,,,0.02,,0.02
+156,Arcana Famiglia 2,PSP,2013,Visual+Novel,Comfort  ,HuneX  ,,,,,0.02,,0.02
+157,Gaku * Ou: The Royal Seven Stars + Meteor,PSP,2013,Visual+Novel,Alchemist  ,Lump of Sugar  ,,,,,0.02,,0.02
+158,Storm Lover Kai!!,PSP,2012,Visual+Novel,D3Publisher  ,Vridge Inc.  ,,,,,0.02,,0.02
+159,Tiger & Bunny: Hero's Day,PSP,2013,Visual+Novel,D3Publisher  ,D3Publisher  ,,,,,0.02,,0.02
+160,"Sharin no Kuni, Himawari no Shoujo",X360,2010,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.02,,0.02
+161,Pioneer no Banshou,PSV,2018,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.02,,0.02
+162,Harukanaru Toki no Naka de Ultimate,PSV,2018,Visual+Novel,Koei Tecmo  ,Koei Tecmo Games  ,,,,,0.01,,0.01
+163,Ikemen Sengoku: Toki o Kakeru Koi - Aratanaru Deai,PSV,2018,Visual+Novel,Idea Factory  ,CYBIRD  ,,,,,0.01,,0.01
+164,La Corda d'Oro 3,PSV,2018,Visual+Novel,Koei Tecmo  ,Ruby Party  ,,,,,0.01,,0.01
+165,The Three Kingdoms Love Story ~ The Art of Otome!,PS2,2011,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+166,Chaos;Head Dual,PSV,2014,Visual+Novel,5pb  ,Genterprise  ,,,,,0.01,,0.01
+167,Killer and Strawberry,PSV,2018,Visual+Novel,Broccoli  ,Broccoli  ,,,,,0.01,,0.01
+168,London Detective Mysteria,PSV,2018,Visual+Novel,Xseed Games  ,Karin Entertainment  ,,,,,0.01,,0.01
+169,AKB1/48: Idol to Guam de Koishitara...,X360,2011,Visual+Novel,Bandai Namco Games  ,Bandai Namco Games  ,,,,,0.01,,0.01
+170,Hakuoki: Reimeiroku DS,DS,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.01,,0.01
+171,Root Double: Before Crime * After Days,X360,2012,Visual+Novel,Yeti  ,Yeti  ,,,,,0.01,,0.01
+172,Gakuen Hetalia,DS,2012,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.01,,0.01
+173,Chaos;Child: Love Chu Chu!!,PSV,2017,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.01,,0.01
+174,Doukoku Soshite... Doukoku Soshite...,PS4,2018,Visual+Novel,El Dia  ,El Dia  ,,,,,0.01,,0.01
+175,Tokimeki Restaurant: Project Tristars,PSV,2018,Visual+Novel,KOEI  ,Ruby Party  ,,,,,0.01,,0.01
+176,Akatsuki no Goei Trinity,PS3,2012,Visual+Novel,5pb  ,Syangrila  ,,,,,0.01,,0.01
+177,Onigokko! Portable,PSP,2013,Visual+Novel,Alchemist  ,Alcot  ,,,,,0.01,,0.01
+178,Hyakki Yagyou Kaidan Romance,PSP,2012,Visual+Novel,Quinrose  ,QuinRose  ,,,,,0.01,,0.01
+179,"Tengai ni Mau, Iki na Hana",PSV,2018,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.01,,0.01
+180,The Fruit of Grisaia,PSP,2013,Visual+Novel,Prototype  ,Front Wing  ,,,,,0.01,,0.01
+181,To Heart 2: Another Days,PSP,2009,Visual+Novel,Aqua Plus  ,Aqua Plus  ,,,,,0.01,,0.01
+182,Chou no Doku: Hana no Kusari - Taishou Tsuyakoi Ibun,PSP,2014,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+183,Disorder 6,PS3,2013,Visual+Novel,5pb  ,MAGES. Inc.  ,,,,,0.01,,0.01
+184,Koezaru wa Akai Hana: Taiga wa Mirai o Tsugumu,PSP,2014,Visual+Novel,Dramatic Create  ,Operetta Due  ,,,,,0.01,,0.01
+185,Memories Off 6: Next Relation,PSP,2010,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.01,,0.01
+186,Chaos;Child: Love Chu Chu!!,PS4,2017,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.01,,0.01
+187,Makai Ouji: Devils and Realist - Dairiou no Hihou,3DS,2013,Visual+Novel,Namco Bandai Games  ,Bandai Namco Games  ,,,,,0.01,,0.01
+188,Doukoku Soshite... Doukoku Soshite...,PSV,2018,Visual+Novel,El Dia  ,El Dia  ,,,,,0.01,,0.01
+189,VA-11 HALL-A,PSV,2017,Visual+Novel,Wolfgame  ,Sukeban Games  ,,,,,0.01,,0.01
+190,Desert Kingdom Portable,PSP,2013,Visual+Novel,Idea Factory  ,Design Factory  ,,,,,0.01,,0.01
+191,"Iza, Shutshjin! Koisen Dai-ni-maku",PSP,2014,Visual+Novel,Asgard  ,"GignoSystem Japan, Inc.  ",,,,,0.01,,0.01
+192,Steins;Gate Elite,PSV,2018,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.01,,0.01
+193,Clannad,PSV,2014,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+194,Yoshiwara Higanbana Kuon no Chigiri,PSV,2017,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+195,Vitamin X: Destination,PSV,2018,Visual+Novel,D3Publisher  ,HuneX  ,,,,,0.01,,0.01
+196,Grisaia Phantom Trigger 03 & 04,PSV,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+197,Maitetsu: Pure Station,PS4,2018,Visual+Novel,Yeti  ,Lose  ,,,,,0.01,,0.01
+198,Eiyuu * Senki,PSV,2014,Visual+Novel,5pb  ,Tenco  ,,,,,0.01,,0.01
+199,Phantom: Phantom of Inferno,X360,2012,Visual+Novel,Digiturbo  ,Nitro+  ,,,,,0.01,,0.01
+200,Memories Off: Innocent File,PS4,2018,Visual+Novel,MAGES  ,5pb. Games  ,,,,,0.01,,0.01
+201,School Wars,PSP,2012,Visual+Novel,Quinrose  ,QuinRose  ,,,,,0.01,,0.01
+202,Flowers: Le volume sur hiver,PSV,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+203,Kuroyukihime: Snow Black,PSP,2014,Visual+Novel,Quinrose  ,QuinRose  ,,,,,0.01,,0.01
+204,Moujuutsukai to Oujisama: Flower & Snow,PSV,2015,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.01,,0.01
+205,Nil Admirari no Tenbin: Irodori Nadeshiko,NS,2018,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.01,,0.01
+206,Sengoku Hime 7: Sen'un Tsuranuku Guren no Ishi,PSV,2018,Visual+Novel,System Soft Alpha  ,Gesen 18  ,,,,,0.01,,0.01
+207,Kimi no Hitomi ni Hit Me,PSV,2018,Visual+Novel,Entergram  ,Giga  ,,,,,0.01,,0.01
+208,Amaekata wa Kanojo Nari ni.,PSV,2017,Visual+Novel,Entergram  ,Giga  ,,,,,0.01,,0.01
+209,Lucky Dog 1,PSV,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+210,Shiro to Kuro no Alice: Twilight Line,PSV,2018,Visual+Novel,Idea Factory  ,"Kogado Studio, Inc.  ",,,,,0.01,,0.01
+211,Cafe Cuillere,PSV,2018,Visual+Novel,Takuyo  ,Takuyo  ,,,,,0.01,,0.01
+212,Hyaku Monogatari: Kaidan Romance,PSP,2013,Visual+Novel,Quinrose  ,QuinRose  ,,,,,0.01,,0.01
+213,Koshotengai no Hashihime Noma,PSV,2018,Visual+Novel,Dramatic Create  ,ADELTA  ,,,,,0.01,,0.01
+214,Saiaku Naru Saiyaku Ningen ni Sasagu,PS4,2018,Visual+Novel,Kemco  ,Kemco  ,,,,,0.01,,0.01
+215,Amatsutsumi,PSV,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.01,,0.01
+216,Dance with Devils: My Carol,PSV,2018,Visual+Novel,Rejet  ,Rejet  ,,,,,0.01,,0.01
+217,Memories Off: Innocent File,PSV,2018,Visual+Novel,MAGES  ,5pb. Games  ,,,,,0.01,,0.01
+218,World End Syndrome,NS,2019,Visual+Novel,Arc System Works  ,Arc System Works  ,,,,,0.01,,0.01
+219,Sweet Pool,PSV,2018,Visual+Novel,Dramatic Create  ,Dramatic Create  ,,,,,0.01,,0.01
+220,Island Days,3DS,2014,Visual+Novel,Stack  ,0verflow  ,,,,,0.0,,0.0
+221,Daitoshokan no Hitsujikai: Library Party,NS,2018,Visual+Novel,Aria  ,August  ,,,,,0.0,,0.0
+222,Cendrillon palikA,NS,2018,Visual+Novel,Idea Factory  ,Otomate  ,,,,,0.0,,0.0
+223,Sanzen Sekai Yuugi: Re Multi Universe Myself,PSV,2018,Visual+Novel,Dramatic Create  ,girls dynamics  ,,,,,0.0,,0.0
+224,Clannad,PS4,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.0,,0.0
+225,Hakuoki: Shinkai - Fuukaden,NS,2018,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,0.0,,0.0
+226,Floral Flowlove,PSV,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,0.0,,0.0
+227,Natsuiro Kokoro Log,PSV,2018,Visual+Novel,Dramatic Create  ,Dramatic Create  ,,,,,0.0,,0.0
+228,"Nora, Princess, and Stray Cat",PS4,2018,Visual+Novel,Harukaze  ,Harukaze  ,,,,,0.0,,0.0
+229,D.S.: Dal Segno,PSV,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,0.0,,0.0
+230,Hello Lady! Superior Dynamis,PSV,2018,Visual+Novel,Dramatic Create  ,Dramatic Create  ,,,,,0.0,,0.0
+231,Aokana: Four Rhythm Across the Blue,NS,2020,Visual+Novel,Sprite  ,Sprite  ,,,,,0.0,,0.0
+232,Boku to Nurse no Kenshuu Nisshi,PS4,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,0.0,,0.0
+233,Kanojo Step,PSV,2018,Visual+Novel,Piacci  ,Piacci  ,,,,,0.0,,0.0
+234,Seven Days: Anata to Sugosu Nanokakan,PSV,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,0.0,,0.0
+235,Liberation Maiden SIN,PSV,2014,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,0.0,,0.0
+236,"Nora, Princess, and Stray Cat",NS,2018,Visual+Novel,Harukaze  ,Harukaze  ,,,,,0.0,,0.0
+237,Memories Off: Innocent File,NS,2018,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.0,,0.0
+238,Enkan no Memoria: Kakera Tomoshi,PSV,2018,Visual+Novel,Dramatic Create  ,A'sRing  ,,,,,0.0,,0.0
+239,Disorder 6,X360,2013,Visual+Novel,5pb  ,5pb. Games  ,,,,,0.0,,0.0
+240,Zero Escape: Virtue's Last Reward,PSV,2012,Visual+Novel,Aksys Games  ,ChunSoft  ,,,,0.0,,0.0,0.0
+241,Chaos;Child,XOne,2014,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+242,Cinders,PC,2012,Visual+Novel,MoaCube  ,MoaCube  ,,,,,,,
+243,Cinders,OSX,2012,Visual+Novel,MoaCube  ,MoaCube  ,,,,,,,
+244,Ever17: The Out of Infinity,X360,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+245,Fate/hollow ataraxia,PC,2005,Visual+Novel,Type-Moon  ,Type-Moon  ,,,,,,,
+246,Hatoful Boyfriend,OSX,2014,Visual+Novel,Devolver Digital  ,Mediatonic Ltd.  ,,,,,,,
+247,Hatoful Boyfriend,Linux,2014,Visual+Novel,Devolver Digital  ,Mediatonic Ltd.  ,,,,,,,
+248,L no Kisetsu 2: Invisible Memories,PS2,2008,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+249,L no Kisetsu: Double Pocket,PSP,2009,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+250,Liberation Maiden SIN,PS3,2013,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+251,Lucian Bee's: Justice Yellow / Evil Violet,PSP,2010,Visual+Novel,5pb  ,HuneX  ,,,,,,,
+252,Muv-Luv,X360,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+253,Muv-Luv Alternative,X360,2011,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+254,Sakura Spirit,PC,2014,Visual+Novel,Sekai Project  ,Sekai Project  ,,,,,,,
+255,Sakura Spirit,OSX,2014,Visual+Novel,Sekai Project  ,Sekai Project  ,,,,,,,
+256,Sakura Spirit,Linux,2014,Visual+Novel,Sekai Project  ,Sekai Project  ,,,,,,,
+257,Shan Gui,Linux,2014,Visual+Novel,Ju Cai  ,Magenta Software  ,,,,,,,
+258,Shan Gui,PC,2014,Visual+Novel,Ju Cai  ,Magenta Software  ,,,,,,,
+259,Shan Gui,OSX,2014,Visual+Novel,Ju Cai  ,Magenta Software  ,,,,,,,
+260,じんるいのみなさまへ,NS,N/A,Visual+Novel,Unknown  ,Nippon Ichi Software  ,,,,,,,
+261,Alternate Jake Hunter: Daedalus The Awakening of Golden Jazz,PS4,2019,Visual+Novel,Arc System Works  ,Neilo Inc  ,,,,,,,
+262,Alternate Jake Hunter: Daedalus The Awakening of Golden Jazz,PC,2019,Visual+Novel,Arc System Works  ,Neilo Inc  ,,,,,,,
+263,Alternate Jake Hunter: Daedalus The Awakening of Golden Jazz,NS,2019,Visual+Novel,Arc System Works  ,Neilo Inc  ,,,,,,,
+264,Anonymous;Code,PS4,2020,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+265,Anonymous;Code,PSV,2020,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+266,Anonymous;Code,NS,2020,Visual+Novel,5pb  ,5pb. Games  ,,,,,,,
+267,Aokana: Four Rhythm Across the Blue,PSV,2016,Visual+Novel,Sprite  ,Sprite  ,,,,,,,
+268,Aokana: Four Rhythm Across the Blue,NS,2020,Visual+Novel,Sprite  ,Sprite  ,,,,,,,
+269,Aokana: Four Rhythm Across the Blue,PC,2019,Visual+Novel,Sprite  ,Sprite  ,,,,,,,
+270,Aokana: Four Rhythm Across the Blue,PS4,2020,Visual+Novel,Sprite  ,Sprite  ,,,,,,,
+271,Arcade Spirits,PC,2019,Visual+Novel,PQube  ,Fiction Factory Games  ,,,,,,,
+272,Arcade Spirits,PS4,2020,Visual+Novel,PQube  ,Fiction Factory Games  ,,,,,,,
+273,Arcade Spirits,XOne,2020,Visual+Novel,PQube  ,Fiction Factory Games  ,,,,,,,
+274,Arcade Spirits,Linux,2019,Visual+Novel,PQube  ,Fiction Factory Games  ,,,,,,,
+275,Arcade Spirits,NS,2020,Visual+Novel,PQube  ,Fiction Factory Games  ,,,,,,,
+276,Boku to Nurse no Kenshuu Nisshi,PC,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,,,
+277,Boku to Nurse no Kenshuu Nisshi,PSV,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,,,
+278,"Bury Me, My Love",NS,2019,Visual+Novel,Plug In Digital  ,The Pixel Hunt  ,,,,,,,
+279,Chaos;Child,PC,2019,Visual+Novel,Spike Chunsoft  ,MAGES. Inc.  ,,,,,,,
+280,Chuusotsu! 1st Graduation: Time After Time,PC,N/A,Visual+Novel,Unknown  ,Studio Beast  ,,,,,,,
+281,Ciconia When They Cry,PC,2019,Visual+Novel,MangaGamer  ,07th Expansion  ,,,,,,,
+282,Cinders,XOne,2020,Visual+Novel,Crunching Koalas  ,MoaCube  ,,,,,,,
+283,Cinders,PS4,2020,Visual+Novel,Crunching Koalas  ,MoaCube  ,,,,,,,
+284,Clannad,NS,2019,Visual+Novel,Prototype  ,Prototype  ,,,,,,,
+285,Clock Zero: Shuuen no Ichibyou Devote,NS,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+286,Code Realize Wintertide Miracles,PS4,2019,Visual+Novel,Aksys Games  ,Aksys Games  ,,,,,,,
+287,Collar x Malice,NS,2020,Visual+Novel,Aksys Games  ,Idea Factory  ,,,,,,,
+288,Collar x Malice: Unlimited,NS,2020,Visual+Novel,Aksys Games  ,Idea Factory  ,,,,,,,
+289,CUPID - A free to play Visual Novel,PC,2016,Visual+Novel,Afterthought Studios  ,Fervent Interactive  ,,,,,,,
+290,Cupid Parasite,NS,2020,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,,,
+291,D.S.: Dal Segno,PS4,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,,,
+292,Danganronpa Decadence,NS,N/A,Visual+Novel,Unknown  ,Spike Chunsoft  ,,,,,,,
+293,Dear Magi: Magical Boy's Department,NS,2019,Visual+Novel,CaeruX  ,CaeruX  ,,,,,,,
+294,Diabolik Lovers: Chaos Lineage,NS,2019,Visual+Novel,Idea Factory  ,Rejet  ,,,,,,,
+295,Divine Slice of Life,PC,2015,Visual+Novel,Dharker Studio  ,NickySwan  ,,,,,,,
+296,Doki Doki Literature Club,PC,2017,Visual+Novel,Team Salvato  ,Team Salvato  ,,,,,,,
+297,Doki Doki Literature Club Plus!,XS,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+298,Doki Doki Literature Club Plus!,NS,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+299,Doki Doki Literature Club Plus!,PS4,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+300,Doki Doki Literature Club Plus!,PS5,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+301,Doki Doki Literature Club Plus!,PC,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+302,Doki Doki Literature Club Plus!,XOne,N/A,Visual+Novel,Unknown  ,Team Salvato  ,,,,,,,
+303,Dull Grey,PSV,N/A,Visual+Novel,Unknown  ,Provodnik Games  ,,,,,,,
+304,Dull Grey,PS4,N/A,Visual+Novel,Unknown  ,Provodnik Games  ,,,,,,,
+305,Dull Grey,XOne,N/A,Visual+Novel,Unknown  ,Provodnik Games  ,,,,,,,
+306,Dull Grey,NS,N/A,Visual+Novel,Unknown  ,Provodnik Games  ,,,,,,,
+307,Eden*,PC,2015,Visual+Novel,MangaGamer  ,minori  ,,,,,,,
+308,Eve: Rebirth Terror,PS4,2019,Visual+Novel,El Dia  ,El Dia  ,,,,,,,
+309,Eve: Rebirth Terror,PSV,2019,Visual+Novel,El Dia  ,El Dia  ,,,,,,,
+310,fault - milestone one,NS,2019,Visual+Novel,Sekai Project  ,ALICE IN DISSONANCE  ,,,,,,,
+311,fault - milestone one,PS4,N/A,Visual+Novel,Unknown  ,ALICE IN DISSONANCE  ,,,,,,,
+312,fault - milestone two side:above,PC,2015,Visual+Novel,Sekai Project  ,ALICE IN DISSONANCE  ,,,,,,,
+313,fault - SILENCE THE PEDANT,PC,N/A,Visual+Novel,Unknown  ,ALICE IN DISSONANCE  ,,,,,,,
+314,Floral Flowlove,PS4,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,,,
+315,Floral Flowlove,PC,2018,Visual+Novel,Entergram  ,Entergram  ,,,,,,,
+316,Flowers: Les Quatre Saisons,PS4,2019,Visual+Novel,Prototype  ,Innocent Grey  ,,,,,,,
+317,Full Kiss,PS4,2019,Visual+Novel,Entergram  ,Giga  ,,,,,,,
+318,Full Kiss,PSV,2019,Visual+Novel,Entergram  ,Giga  ,,,,,,,
+319,Gnosia,PSV,N/A,Visual+Novel,Unknown  ,Petit Depotto  ,,,,,,,
+320,Gnosia,NS,N/A,Visual+Novel,Unknown  ,Petit Depotto  ,,,,,,,
+321,Grisaia Phantom Trigger 01 & 02,PSV,2017,Visual+Novel,Prototype  ,Prototype  ,,,,,,,
+322,Hakuoki Shinkai: Ginsei no Sho,NS,2020,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,,,
+323,Hakuoki: Edo Blossoms,PSV,2018,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+324,"Hanayaka Kana, Ware ga Ichizoku: Gentou Nostalgie",NS,2019,Visual+Novel,Idea Factory  ,Ichi Column  ,,,,,,,
+325,"Hanayaka Nari, Waga Ichizoku Modern Nostalgie",NS,2019,Visual+Novel,Idea Factory  ,Ichi Column  ,,,,,,,
+326,Haruoto Alice ＊ Gram Snow Drop,PSV,2019,Visual+Novel,Entergram  ,NanaWind  ,,,,,,,
+327,Haruoto Alice ＊ Gram Snow Drop,PS4,2019,Visual+Novel,Entergram  ,NanaWind  ,,,,,,,
+328,Hatoful Boyfriend,PS4,2015,Visual+Novel,Devolver Digital  ,Mediatonic Ltd.  ,,,,,,,
+329,Hatoful Boyfriend,PSV,2015,Visual+Novel,Devolver Digital  ,Mediatonic Ltd.  ,,,,,,,
+330,Heart of the Woods,NS,2020,Visual+Novel,Sekai Project  ,Studio Elan  ,,,,,,,
+331,Heart of the Woods,PC,2019,Visual+Novel,Sekai Project  ,Studio Elan  ,,,,,,,
+332,Higurashi no Naku Koro ni Hou,PS4,2019,Visual+Novel,Entergram  ,07th Expansion  ,,,,,,,
+333,If My Heart Had Wings -Flight Diary-,PC,2019,Visual+Novel,MoeNovel  ,MoeNovel  ,,,,,,,
+334,Irony Curtain: From Matryoshka,PS4,N/A,Visual+Novel,Unknown  ,Artifex Mundi  ,,,,,,,
+335,Irony Curtain: From Matryoshka,XOne,N/A,Visual+Novel,Unknown  ,Artifex Mundi  ,,,,,,,
+336,Irony Curtain: From Matryoshka,NS,N/A,Visual+Novel,Unknown  ,Artifex Mundi  ,,,,,,,
+337,Irony Curtain: From Matryoshka,PC,N/A,Visual+Novel,Unknown  ,Artifex Mundi  ,,,,,,,
+338,Jack Jeanne,NS,2020,Visual+Novel,Broccoli  ,Broccoli  ,,,,,,,
+339,Jakou no Lyla: Trap of Musk,NS,2019,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,,,
+340,Karigurashi Renai,PSV,2019,Visual+Novel,Entergram  ,ASa Project  ,,,,,,,
+341,Karigurashi Renai,PS4,2019,Visual+Novel,Entergram  ,ASa Project  ,,,,,,,
+342,Katakoi Contrast: Collection of Branch,NS,2019,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,,,
+343,Kenka Bancho Otome: 2nd Rumble!!,PSV,2019,Visual+Novel,Spike Chunsoft  ,RED Entertainment  ,,,,,,,
+344,Konoyo no Hate de Koi o Utau Shoujo: Yu-No,NS,2019,Visual+Novel,5pb  ,MAGES  ,,,,,,,
+345,Kotodama: The 7 Mysteries of Fujisawa,NS,2019,Visual+Novel,PQube  ,Art Co. Ltd.  ,,1.0,,,,,
+346,Kotodama: The 7 Mysteries of Fujisawa,PC,2019,Visual+Novel,PQube  ,Art Co. Ltd.  ,,,,,,,
+347,Kotodama: The 7 Mysteries of Fujisawa,PS4,2019,Visual+Novel,PQube  ,Art Co. Ltd.  ,,,,,,,
+348,Last Stanza,PC,N/A,Visual+Novel,Unknown  ,Sekai Project  ,,,,,,,
+349,London Detective Mysteria,PSP,2013,Visual+Novel,Marvelous Interactive  ,Karin Entertainment  ,,,,,,,
+350,Memories Off: Innocent Fille for Dearest,PSV,2019,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+351,Memories Off: Innocent Fille for Dearest,PS4,2019,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+352,Memories Off: Innocent Fille for Dearest,NS,2019,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+353,Mission: It's Complicated,PC,N/A,Visual+Novel,Unknown  ,Schell Games  ,,,,,,,
+354,MONMUSU,PC,2018,Visual+Novel,NEKO WORKs  ,Tentacle Games  ,,,,,,,
+355,Moujuutsukai to Oujisama: Flower & Snow,NS,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+356,Muv-Luv,PSV,2018,Visual+Novel,PQube  ,5pb. Inc.  ,,,,,,,
+357,Muv-Luv Alternative,PSV,2018,Visual+Novel,PQube  ,5pb. Games  ,,,,,,,
+358,My Aunt is a Witch,XOne,N/A,Visual+Novel,Unknown  ,Sometimes You  ,,,,,,,
+359,My Aunt is a Witch,XS,N/A,Visual+Novel,Unknown  ,Sometimes You  ,,,,,,,
+360,My Aunt is a Witch,NS,N/A,Visual+Novel,Unknown  ,Sometimes You  ,,,,,,,
+361,My Aunt is a Witch,PSV,N/A,Visual+Novel,Unknown  ,Sometimes You  ,,,,,,,
+362,My Aunt is a Witch,PS4,N/A,Visual+Novel,Unknown  ,Sometimes You  ,,,,,,,
+363,My Girlfriend is a Mermaid!?,NS,2019,Visual+Novel,Sekai Project  ,Cosen  ,,,,,,,
+364,My Girlfriend is a Mermaid!?,PC,2018,Visual+Novel,Sekai Project  ,Cosen  ,,,,,,,
+365,N.E.R.O.: Nothing Ever Remains Obscure,NS,N/A,Visual+Novel,Unknown  ,Storm in a Teacup  ,,,,,,,
+366,N1RV Ann-A,NS,N/A,Visual+Novel,Unknown  ,Sukeban Games  ,,,,,,,
+367,Nekojishi,PC,2017,Visual+Novel,Orange Juice Dog  ,Team Nekojishi  ,,,,,,,
+368,Nekopara,NS,2018,Visual+Novel,Sekai Project  ,Neko Works  ,,,,,,,
+369,"Nora, Princess, and Crying Cat",NS,2019,Visual+Novel,Piacci  ,Harukaze  ,,,,,,,
+370,"Nora, Princess, and Crying Cat",PS4,2019,Visual+Novel,Piacci  ,Harukaze  ,,,,,,,
+371,"Nora, Princess, and Crying Cat",PSV,2019,Visual+Novel,Piacci  ,Harukaze  ,,,,,,,
+372,One Night Stand,PC,2016,Visual+Novel,Kinmoku  ,Kinmoku  ,,,,,,,
+373,One Night Stand,PS4,2019,Visual+Novel,Kinmoku  ,Kinmoku  ,,,,,,,
+374,One Night Stand,XOne,2019,Visual+Novel,Kinmoku  ,Kinmoku  ,,,,,,,
+375,One Night Stand,NS,2019,Visual+Novel,Kinmoku  ,Kinmoku  ,,,,,,,
+376,Our World Is Ended.,PS4,2019,Visual+Novel,PQube  ,RED Entertainment  ,,,,,,,
+377,Our World Is Ended.,NS,2019,Visual+Novel,PQube  ,RED Entertainment  ,,,,,,,
+378,Our World Is Ended.,PSV,2017,Visual+Novel,PQube  ,RED Entertainment  ,,,,,,,
+379,Our World Is Ended.,PC,2019,Visual+Novel,PQube  ,RED Entertainment  ,,,,,,,
+380,Pantsu Hunter: Back to the 90s,NS,N/A,Visual+Novel,Unknown  ,Ascension Dream  ,,,,,,,
+381,Pantsu Hunter: Back to the 90s,PC,N/A,Visual+Novel,Unknown  ,Ascension Dream  ,,,,,,,
+382,Please Be Happy,NS,2020,Visual+Novel,Sekai Project  ,Studio Elan  ,,,,,,,
+383,Please Be Happy,PC,2020,Visual+Novel,Sekai Project  ,Studio Elan  ,,,,,,,
+384,Private Bellbara Academy: Rose of Versailles Re*imagination,NS,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+385,Psychedelica of the Ashen Hawk,PC,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+386,Raging loop,NS,N/A,Visual+Novel,Unknown  ,Kemco  ,,,,,,,
+387,Reine des Fleurs,NS,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+388,Robotics;Notes DaSH,PC,2020,Visual+Novel,Spike Chunsoft  ,MAGES  ,,,,,,,
+389,Robotics;Notes DaSH,PS4,2020,Visual+Novel,Spike Chunsoft  ,5pb. Games  ,,,,,,,
+390,Robotics;Notes DaSH,NS,2020,Visual+Novel,Spike Chunsoft  ,5pb. Games  ,,,,,,,
+391,Robotics;Notes Elite,PC,2020,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+392,Robotics;Notes Elite,NS,2020,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+393,Robotics;Notes Elite,PS4,2020,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+394,Root Double: Before Crime * After Days,NS,2020,Visual+Novel,Sekai Project  ,Regista  ,,,,,,,
+395,Root Film,PS4,2020,Visual+Novel,Kadokawa Games  ,Kadokawa Games  ,,,,,,,
+396,Root Film,NS,2020,Visual+Novel,Kadokawa Games  ,Kadokawa Games  ,,,,,,,
+397,Root Letter: Last Answer,PC,2019,Visual+Novel,Kadokawa Games  ,Kadokawa Games  ,,,,,,,
+398,Saku Saku: Love Blooms with the Cherry Blossoms,PS4,2019,Visual+Novel,Dramatic Create  ,PALETTE  ,,,,,,,
+399,Saku Saku: Love Blooms with the Cherry Blossoms,PC,2017,Visual+Novel,Sekai Project  ,PALETTE  ,,,,,,,
+400,Saya no Uta,PC,N/A,Visual+Novel,Unknown  ,Nitroplus  ,,,,,,,
+401,Sharin no Kuni: The Girl Among the Sunflowers,PSV,N/A,Visual+Novel,Unknown  ,AKABEi SOFT2  ,,,,,,,
+402,Sharin no Kuni: The Girl Among the Sunflowers,PC,N/A,Visual+Novel,Unknown  ,AKABEi SOFT2  ,,,,,,,
+403,Shin Hayarigami 1 and 2 Pack,NS,2019,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,,,
+404,Silverio Trinity: Beyond the Horizon,PSV,2019,Visual+Novel,Light  ,Light  ,,,,,,,
+405,Sisters In Hotel,PC,2017,Visual+Novel,bch waves studio  ,bch waves studio  ,,,,,,,
+406,Sisters In Hotel: Episode 2,PC,2018,Visual+Novel,bch waves studio  ,bch waves studio  ,,,,,,,
+407,Sisters In Hotel: Episode 3,PC,N/A,Visual+Novel,Unknown  ,bch waves studio  ,,,,,,,
+408,Soi Kano: Gyutto Dakishimete,NS,2019,Visual+Novel,Entergram  ,Giga  ,,,,,,,
+409,Soi Kano: Gyutto Dakishimete,PSV,2019,Visual+Novel,Entergram  ,Giga  ,,,,,,,
+410,Soi Kano: Gyutto Dakishimete,PS4,2019,Visual+Novel,Entergram  ,Giga  ,,,,,,,
+411,Song of Memories,PS4,2019,Visual+Novel,PQube  ,"Future Tech Lab Co.,Ltd.  ",,,,,,,
+412,Song of Memories,NS,N/A,Visual+Novel,Unknown  ,"Future Tech Lab Co.,Ltd.  ",,,,,,,
+413,Song of Memories,PC,N/A,Visual+Novel,Unknown  ,"Future Tech Lab Co.,Ltd.  ",,,,,,,
+414,Spirit Hunter: NG,NS,2019,Visual+Novel,Aksys Games  ,Experience Inc.  ,,,,,,,
+415,Spirit Hunter: NG,PC,2019,Visual+Novel,Aksys Games  ,Experience Inc.  ,,,,,,,
+416,Spirit Hunter: NG,PS4,2019,Visual+Novel,Aksys Games  ,Experience Inc.  ,,,,,,,
+417,Spirit Hunter: NG,PSV,2019,Visual+Novel,Aksys Games  ,Experience Inc.  ,,,,,,,
+418,Steins;Gate: Divergencies Assort,NS,2019,Visual+Novel,5pb  ,5pb. Inc.  ,,,,,,,
+419,Steins;Gate: My Darling's Embrace,PS4,2019,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+420,Steins;Gate: My Darling's Embrace,NS,2019,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+421,Steins;Gate: My Darling's Embrace,PC,2019,Visual+Novel,Spike Chunsoft  ,5pb. Inc.  ,,,,,,,
+422,Suki to Suki to de Sankaku Ren'ai,PSV,2019,Visual+Novel,Entergram  ,ASa Project  ,,,,,,,
+423,Summer Pockets,NS,2019,Visual+Novel,Prototype  ,Key  ,,,,,,,
+424,Synergia,PS4,N/A,Visual+Novel,Unknown  ,Radi Art  ,,,,,,,
+425,Synergia,PSV,N/A,Visual+Novel,Unknown  ,Radi Art  ,,,,,,,
+426,Synergia,XOne,N/A,Visual+Novel,Unknown  ,Radi Art  ,,,,,,,
+427,Synergia,NS,N/A,Visual+Novel,Unknown  ,Radi Art  ,,,,,,,
+428,Synergia,PC,N/A,Visual+Novel,Unknown  ,Radi Art  ,,,,,,,
+429,Taishou x Alice: All in One,NS,2019,Visual+Novel,Prototype  ,Prototype  ,,,,,,,
+430,Tales from the Borderlands,NS,2021,Visual+Novel,2K Games  ,2K Games  ,,,,,,,
+431,The 25th Ward: The Silver Case,PC,2018,Visual+Novel,NIS America  ,Grasshopper Manufacture  ,,,,,,,
+432,The 25th Ward: The Silver Case,PS4,2018,Visual+Novel,NIS America  ,Grasshopper Manufacture  ,,,,,,,
+433,The Fox Is Waiting For Me,NS,N/A,Visual+Novel,Unknown  ,Tales Shop  ,,,,,,,
+434,The House in Fata Morgana: Dream of the Revenants Edition,PS4,2019,Visual+Novel,Mighty Rabbit Studios  ,Novectacle  ,,,,,,,
+435,The House in Fata Morgana: Dreams of the Revenants Edition,NS,N/A,Visual+Novel,Unknown  ,Novectacle  ,,,,,,,
+436,The Mind's Eclipse,PC,2018,Visual+Novel,Mind's Eclipse Interactive  ,Unknown  ,,,,,,,
+437,The Silver Case,PS,1999,Visual+Novel,ASCII Entertainment  ,Grasshopper Manufacture  ,,,,,,,
+438,The Silver Case,PC,2016,Visual+Novel,Grasshopper Manufacture Inc.  ,Grasshopper Manufacture  ,,,,,,,
+439,The Three Kingdoms Love Story ~ The Art of Otome!,NS,2018,Visual+Novel,Prototype  ,Prototype  ,,,,,,,
+440,The Walking Dead - A Telltale Series - The Final Season,XOne,2019,Visual+Novel,Telltale Games  ,Telltale Games  ,,,,,,,
+441,The Walking Dead - A Telltale Series - The Final Season,PS4,2019,Visual+Novel,Telltale Games  ,Telltale Games  ,,,,,,,
+442,Tlicolity Eyes: Twinkle Snowtime,NS,2019,Visual+Novel,Idea Factory  ,Idea Factory  ,,,,,,,
+443,VA-11 HALL-A,NS,2019,Visual+Novel,Ysbryd Games  ,Sukeban Games  ,,,,,,,
+444,VA-11 HALL-A,PS4,2019,Visual+Novel,Playism  ,Sukeban Games  ,,,,,,,
+445,Vampire: The Masquerade – Night Road,Linux,2020,Visual+Novel,Choice of Games  ,Choice of Games  ,,,,,,,
+446,Vampire: The Masquerade – Night Road,And,2020,Visual+Novel,Choice of Games  ,Choice of Games  ,,,,,,,
+447,Vampire: The Masquerade – Night Road,iOS,2020,Visual+Novel,Choice of Games  ,Choice of Games  ,,,,,,,
+448,Vampire: The Masquerade – Night Road,PC,2020,Visual+Novel,Choice of Games  ,Choice of Games  ,,,,,,,
+449,Vampire: The Masquerade – Shadows of New York,XOne,2020,Visual+Novel,Draw Distance  ,Draw Distance  ,,,,,,,
+450,Vampire: The Masquerade – Shadows of New York,Linux,2020,Visual+Novel,Draw Distance  ,Draw Distance  ,,,,,,,
+451,Vampire: The Masquerade – Shadows of New York,NS,2020,Visual+Novel,Draw Distance  ,Draw Distance  ,,,,,,,
+452,Vampire: The Masquerade – Shadows of New York,PC,2020,Visual+Novel,Draw Distance  ,Draw Distance  ,,,,,,,
+453,Vampire: The Masquerade – Shadows of New York,PS4,2020,Visual+Novel,Draw Distance  ,Draw Distance  ,,,,,,,
+454,Variable Barricade,PSV,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
+455,Werewolf: The Apocalypse – Heart of the Forest,PC,2020,Visual+Novel,Walkabout  ,Different Tales  ,,,,,,,
+456,Wheels of Aurelia,PS4,2016,Visual+Novel,Mixedbag Srl  ,Santa Ragione Srl  ,8.0,,,,,,
+457,WILL: A Wonderful World,NS,2019,Visual+Novel,PM Studios  ,4D Door Games  ,,,,,,,
+458,WILL: A Wonderful World,PC,2017,Visual+Novel,AGM Playism  ,4D Door Games  ,,,,,,,
+459,WILL: A Wonderful World,PS4,2019,Visual+Novel,PM Studios  ,4D Door Games  ,,,,,,,
+460,Without Within,PC,2015,Visual+Novel,InvertMouse  ,InvertMouse  ,,,,,,,
+461,Without Within 2,PC,2015,Visual+Novel,InvertMouse  ,InvertMouse  ,,,,,,,
+462,Without Within 3,PC,2018,Visual+Novel,InvertMouse  ,InvertMouse  ,,,,,,,
+463,World End Syndrome,PSV,2018,Visual+Novel,Arc System Works  ,Arc System Works  ,,,,,,,
+464,World End Syndrome,PS4,2018,Visual+Novel,Arc System Works  ,Arc System Works  ,,,,,,,
+465,XBlaze Lost: Memories,PC,2016,Visual+Novel,Aksys Games  ,Arc System Works  ,,,,,,,
+466,"Yoru, Tomosu",NS,2020,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,,,
+467,"Yoru, Tomosu",PS4,2020,Visual+Novel,Nippon Ichi Software  ,Nippon Ichi Software  ,,,,,,,
+468,Yunohana SpRING! ~Mellow Times~,NS,2019,Visual+Novel,Idea Factory  ,Otomate  ,,,,,,,
