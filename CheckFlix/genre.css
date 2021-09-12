@@ -1,0 +1,389 @@
+
+.pageHeaderContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.filterButtonContainer {
+    width: 33.33%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filterButton {
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 30px;
+    background: rgb(15, 15, 20);
+    color: gold;
+    width: 260px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: rgb(15, 15, 20) 2px solid;
+    border-radius: 10px
+
+}
+#filterButton:hover {
+    background-color: rgb(50, 50, 60);
+}
+
+.genreHeaderContainer {
+    margin: 0 auto;
+    color: orangered;
+    font-size: 30px;
+    width: 33.33%;
+}
+
+.sortContainer {
+    width: 33.33%;
+    color: gold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sortingMenu{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    padding: 8px 12px;
+    color: gold;
+    background: rgb(15, 15, 20);
+    border: 2px solid rgb(15, 15, 20);
+    cursor: pointer;
+    border-radius: 10px
+}
+
+#sortingMenu:focus{
+    outline: none;
+}
+#sortingMenu:hover {
+    background-color: rgb(50, 50, 60);
+}
+
+
+.Logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.Logo-Check {
+    color: red;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.Logo-Flix {
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+
+.center {
+    /* Add text-align property if needed to its own div*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    /* disables the black vertical line when clicking on text a.k.a the "caret" */
+    -webkit-user-select: none;
+    background: url("images/background.jpg");
+    background-size: cover;
+    /* this fixed the zooming in problem */
+    background-color: darkgrey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+
+legend {
+    color: gold;
+}
+
+.largerCheckbox {
+    width: 20px;
+    height: 20px;
+}
+
+.filter-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#filterHeader {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: gold;
+}
+
+.filter-content {
+    border: whitesmoke solid 3px;
+    color: whitesmoke;
+    width: auto;
+    height: 750px;
+    background-color: rgba(50, 50, 55, 1);
+    border-radius: 20px;
+    position: relative;
+    display: block;
+}
+
+#closeIcon{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 45px;
+    transform: rotate(45deg);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.filterSection-OnlyForType{
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 220px;
+}
+.filterSection {
+    display: none;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 220px;
+}
+
+.filterButtonSection {
+    margin: 540px auto;
+    height: 70px;
+    width: 700px;
+    text-align: center;
+}
+
+
+.myButton {
+    cursor: pointer;
+    margin: 10px;
+    height: auto;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    background: rgb(15, 15, 20);
+    color: gold;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.myButton:hover {
+    background-color: rgb(50, 50, 60);
+}
+
+
+/* the whole listings container */
+#listings {
+    margin: 10px auto;
+    width: 95%;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#listingContainer{
+    width: 800px;
+}
+
+/* a single show/movie container */
+#anElement {
+    height: 430px;
+    margin:  20px 20px;
+}
+
+#listingThumbnailContainer {
+    float: left;
+    width: 300px;
+    height: 420px;
+    margin: 0 15px 0 0;
+}
+#thumbnail {
+    height: 400px;
+}
+
+.pageNavigation {
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#nextPage1, #nextPage2, #prevPage1, #prevPage1, #currentPage1, #currentPage2{
+    width: 200px;
+}
+
+
+
+#pageNum {
+    color: gold;
+}
+
+/* thumbnail of show/movie */
+#listings div div img {
+    margin-right: 15px;
+    float: left;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* content or details of show/movie */
+#listings div #content {
+    display: block;
+    margin: 2px 0 0 0;
+    color: whitesmoke;
+
+}
+
+#goToNetflix {
+    color: gold;
+    font-weight: bold;
+    background: rgb(15, 15, 20);
+    border: black solid 1px;
+    font-size: 1.5em;
+    width: 100px;
+    height: 50px;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+#goToNetflix:hover {
+    background-color: rgb(50, 50, 60);
+}
+
+#currentPage1, #currentPage2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.button-disabled {
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: gray;
+    color: rgb(180,180,180);
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-enabled {
+    margin: 10px;
+    background-color: rgb(15, 15, 20);
+    border: 3px solid rgb(15, 15, 20);
+    color: gold;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.button-enabled:hover{
+    background-color: rgb(50, 50, 60);
+}
+
+
+nav{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin: -10px auto;   /* this fixed the top empty area above the nav bar.. phew */
+    padding: 0 0 30px 0;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+nav ul li {
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    /* this controls the right and left positioning of the navigation links */
+    padding: 0px 19px 0px 14px;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    display: block;
+    color: gold;
+}
+
+.pickedGenre {
+    color: orangered;
+    border-bottom:3px solid red;
+    padding-bottom:2px;
+}
+
+.pickedGenre:hover{
+    color: orangered;
+}
+
+#noneFound {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+#numberOfResults {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+#resetPage2{
+    margin-left: 50px;
+}
+
+#title {
+    color: gold;
+}
