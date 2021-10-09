@@ -130,7 +130,7 @@ function getChart(chartType, divElement) {
                 }]
         },
         options:{
-            indexAxis: 'y',
+            indexAxis: 'x',
             responsive:true,
             title:{
                 display:true,
