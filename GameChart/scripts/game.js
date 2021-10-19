@@ -38,7 +38,7 @@ function findGame () {
             var aListing = document.createElement("div");
             aListing.id = "anElement";
             if (game_found.URL.toString().toLowerCase().includes("notfound")) {
-                var image = "../images/no_image_found.png";
+                var image = "../images/default.png";
             } else {
                 var image = game_found.URL;
             }
