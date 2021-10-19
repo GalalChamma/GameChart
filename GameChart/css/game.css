@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+
+#listings {
+    justify-content: center;
+    text-align: center;
+}
+p{
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+}
