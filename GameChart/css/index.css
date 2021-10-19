@@ -1,0 +1,61 @@
+h1 {
+    position: relative;
+    right: 170px;
+    text-align: right;
+    font-size: 60px;
+    font-family: "Century Gothic";
+}
+
+#border {border-bottom: 5px solid;}
+
+h2 {
+    position: relative;
+    right: 125px;
+    text-align: right;
+    font-size: 30px;
+    font-family: "Century Gothic";
+}
+
+body {
+    background-color: yellow;
+}
+
+#search {
+    width: 500px;
+    height: 35px;
+    font-size: 35px;
+    font-family: "Century Gothic";
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#table {
+    font-size: 35px;
+    font-family: "Century Gothic";
+    background-color: lightgrey;
+    border-style: inset;
+    width: 400px;
+    cursor: pointer;
+}
+#chart {
+    font-size: 35px;
+    font-family: "Century Gothic";
+    background-color: lightgrey;
+    border-style: inset;
+    width: 300px;
+    cursor: pointer;
+}
+#about {
+    font-size: 35px;
+    font-family: "Century Gothic";
+    background-color: lightgrey;
+    border-style: inset;
+    width: 200px;
+    cursor: pointer;
+}
+
+#scroller {
+    position: absolute;
+    bottom: 75px;
+    left: 900px;
+}

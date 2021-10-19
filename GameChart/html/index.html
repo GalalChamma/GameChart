@@ -1,55 +1,41 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Game Chart</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>GameChart Home</title>
 
-    <script src="../scripts/index.js"></script>
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
 </head>
-<body style="justify-content: center; justify-items: center; text-align: center">
+<body>
+<header>
     <h1>GameChart</h1>
-    <h1>Game Sales Visualization Tool</h1>
+    <div id = "border"></div>
+    <h2>A Game Data Visualization Tool</h2>
 
+</header>
+
+<main>
     <form method="GET" action="search.html">
-        <div>
-            <p>Enter a game name and press Enter. Ignore the duplicate records for now.</p>
-            <input type="text" name="game" placeholder="Search" style="width: 500px; height: 30px">
-            <p></p>
-        </div>
-        <div>
-            <button type="button" onclick="window.location='table.html';"style="margin-top: 10px">Table</button>
-            <button type="button" onclick="window.location='index.html';"style="margin-top: 10px">Charts</button>
-            <button type="button" onclick="window.location='game.html?game=47';"style="margin-top: 10px">Sample Game Page</button>
-
-        </div>
+        <input type="text" id="search" name="game" placeholder="Search"><br>
     </form>
-    <h3 style="margin-top: 50px">These data are fetched from our dataset. Can be found in data/games.json</h3>
-    <div style="height: 40px"></div>
-    <div id="motherContainer" style="justify-content: center">
-        <!-- style="border: thin solid black -->
-        <div class="container" style="margin: auto;width: 80%"><h3>Bar Chart for multi region Sales</h3></br></br>
-            <canvas id="myChart" style="padding-right: 40px"></canvas>
-        </div>
+    <br>
+    <br>
+    <input type="button" id = "table" value="Tables" onclick="location.href='tables.html'"><br>
+    <br>
+    <br>
+    <input type="button" id = "chart" value="Charts" onclick="location.href='charts.html'"><br>
+    <br>
+    <br>
+    <input type="button" id = "about" value="About" onclick="location.href='about.html'"><br>
 
-        <div style="height: 100px"></div>
+    <!--p id = "search">Search</p>
+    <p id = "table">Table</p>
+    <p id = "charts">Charts</p>
+    <p id = "about">About</p-->
 
-        <div class="container" style="margin: auto;width: 30%;"><h3>Pie Chart for Global Sales</h3></br></br>
-            <canvas id="myChart2" style="margin-right: 40px"></canvas>
-        </div>
-
-        <div style="height: 100px"></div>
-
-        <div class="container" style="margin: auto;width: 30%"><h3>Doughnut Chart for Global Sales</h3></br></br>
-            <canvas id="myChart3" style="margin-right: 40px"></canvas>
-        </div>
-
-        <div style="height: 100px"></div>
+    <img id = "scroller" src="https://m.media-amazon.com/images/I/51NgDXzErYL._SY445_.jpg" width="250" height="300">
+</main>
 
 
-    </div>
 </body>
+</html>
