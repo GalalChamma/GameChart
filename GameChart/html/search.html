@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Search</title>
+    <link href="../css/search.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -11,6 +12,25 @@
     <script src="../scripts/search.js"></script>
 </head>
 <body>
+
+<header>
+    <nav>
+        <ul id = "links">
+            <li><a href="index.html" id = "home" >GameChart</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="charts.html">Charts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+                <form method="GET" action="search.html">
+                    <input type="text" id="search" name="game" placeholder="Search..."><br>
+                </form>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<br>
+
 <div id="listings">
 
 </div>

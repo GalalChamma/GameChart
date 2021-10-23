@@ -30,6 +30,7 @@ body {
     font-family: "Century Gothic";
     background-color: lightgrey;
     text-align: center;
+    border-radius: 12px;
 }
 
 #table {
@@ -39,6 +40,7 @@ body {
     border-style: inset;
     width: 400px;
     cursor: pointer;
+    border-radius: 12px;
 }
 #chart {
     font-size: 35px;
@@ -47,6 +49,7 @@ body {
     border-style: inset;
     width: 300px;
     cursor: pointer;
+    border-radius: 12px;
 }
 #about {
     font-size: 35px;
@@ -55,6 +58,7 @@ body {
     border-style: inset;
     width: 200px;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 #scroller {
