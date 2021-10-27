@@ -33,21 +33,7 @@ li a:visited {text-decoration: none;}
     padding: 14px 16px;
 }
 
-#filter {
-    position: absolute;
-    right: 100px;
-    border-radius: 12px;
-    width: 120px;
-    height: 70px;
-    font-size: 35px;
-    font-family: "Century Gothic";
-    cursor: pointer;
-}
-/**
-#sort {
-    position: absolute;
-    right: 100px;
-    width: 200px;
+p {
     font-size: 25px;
     font-family: "Century Gothic";
-} **/
+}

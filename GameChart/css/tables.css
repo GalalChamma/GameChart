@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: lightskyblue;
+    width: 100%;
 }
 li {float: left;}
 li a {
@@ -13,49 +14,27 @@ li a {
     font-family: "Century Gothic";
     font-size: 30px;
     padding: 14px 16px;
-    border-right: solid 5px;
+    border-right: solid 2px;
 }
 li a:hover {background-color: lightseagreen;}
+li a:link {text-decoration: none;}
+li a:visited {text-decoration: none;}
 
 #search {
     position: relative;
     left: 250px;
     width: 400px;
     height: 35px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Century Gothic";
     background-color: lightgrey;
     text-align: left;
-}
-
-.sideFilter {
-    height: 100%;
-    width: 210px;
-    position: fixed;
-    z-index: 1;
-    top: 80px;
-    left: 10px;
-    background-color: lightskyblue;
-    overflow-x: hidden;
-    padding-top: 100px;
-}
-
-.sideFilter input[type="button"] {
-    width: 200px;
-    height: 50px;
-    display: block;
-    font-size: 35px;
-    font-family: "Century Gothic";
-    text-align: center;
-}
-
-main {
-    margin-left: 210px;
-    padding: 0px 10px;
+    border-radius: 12px;
+    padding: 14px 16px;
 }
 
 #myGrid{
     height: 600px;
-    width:80%;
-    margin-left: 230px;
+    width:100%;
+    margin-left: 0px;
 }
