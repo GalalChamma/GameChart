@@ -7,33 +7,40 @@
     <link href="../css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<header>
-    <h1>GameChart</h1>
-    <div id = "border"></div>
-    <h2>A Game Data Visualization Tool</h2>
 
-</header>
+
+
 
 <main>
-    <form method="GET" action="search.html">
-        <input type="text" id="search" name="game" placeholder="Search"><br>
-    </form>
-    <br>
-    <br>
-    <input type="button" id = "table" value="Tables" onclick="location.href='tables.html'"><br>
-    <br>
-    <br>
-    <input type="button" id = "chart" value="Charts" onclick="location.href='charts.html'"><br>
-    <br>
-    <br>
-    <input type="button" id = "about" value="About" onclick="location.href='about.html'"><br>
+    <div id = leftContainer>
+        <div>
+            <form method="GET" action="search.html">
+                <input type="text" id="search" class="menuButton" name="game" placeholder="Search">
+            </form>
+        </div>
+        <div>
+            <input type="button" id = "table" class="menuButton" value="Tables" onclick="location.href='tables.html'">
+        </div>
+        <div>
+            <input type="button" id = "chart" class="menuButton" value="Charts" onclick="location.href='charts.html'">
+        </div>
+        <div>
+            <input type="button" id = "about" class="menuButton" value="About" onclick="location.href='about.html'">
+        </div>
+    </div>
 
-    <!--p id = "search">Search</p>
-    <p id = "table">Table</p>
-    <p id = "charts">Charts</p>
-    <p id = "about">About</p-->
-
-    <img id = "scroller" src="https://m.media-amazon.com/images/I/51NgDXzErYL._SY445_.jpg" width="250" height="300">
+    <div id = "rightContainer">
+        <div id="game-chart-title">
+            <h1>GameChart</h1>
+        </div>
+        <div id="main-title">
+            <hr id="hr-line">
+            <h2>A Game Data Visualization Tool</h2>
+            <a href="game.html?game=27464">
+            <img id = "scroller" src="https://images.saymedia-content.com/.image/t_share/MTc0NDU1NjY0NjQxNzEzNTEy/super-mario-odyssey-review-for-nintendo-switch.jpg">
+            </a>
+        </div>
+    </div>
 </main>
 
 

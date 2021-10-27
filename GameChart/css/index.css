@@ -1,19 +1,48 @@
-h1 {
-    position: relative;
-    right: 170px;
-    text-align: right;
-    font-size: 60px;
-    font-family: "Century Gothic";
+main {
+
+
+}
+#leftContainer{
+    margin-top: 12%;
+    float: left;
+    /*border: solid blueviolet 3px;*/
+    width: 49.5%;
+    height: 100%;
 }
 
-#border {border-bottom: 5px solid;}
+#rightContainer{
+
+    float: right;
+    /*border: solid yellow 3px;*/
+    width: 49.5%;
+    height: 90%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    font-family: "Arial Black";
+    letter-spacing: -2px;
+}
+
+h1 {
+    /*text-align: right;*/
+    font-size: 80px;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
+    margin: 20px;
+}
+
 
 h2 {
     position: relative;
     right: 125px;
     text-align: right;
     font-size: 30px;
-    font-family: "Century Gothic";
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color: white;
 }
 
 body {
@@ -23,42 +52,53 @@ body {
     background-attachment: fixed;
 }
 
-#search {
-    width: 500px;
-    height: 35px;
+.menuButton {
+    height: 50px;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: 2px solid #080808;
+    border-style: inset;
     font-size: 35px;
-    font-family: "Century Gothic";
+    font-weight: bolder;
     background-color: lightgrey;
     text-align: center;
+    color: black;
+    margin-left: -25px; /* pushing the mnu to the left */
+}
+
+
+
+#hr-line {
+    height: 3px;
+    border: 0;
+    color: #333;
+    background-color: white;
+    width: 80%;
+}
+
+
+#search {
+    width: 75%;
 }
 
 #table {
-    font-size: 35px;
-    font-family: "Century Gothic";
-    background-color: lightgrey;
-    border-style: inset;
-    width: 400px;
+    width: 65%;
     cursor: pointer;
 }
 #chart {
-    font-size: 35px;
-    font-family: "Century Gothic";
-    background-color: lightgrey;
-    border-style: inset;
-    width: 300px;
+    width: 55%;
     cursor: pointer;
 }
 #about {
-    font-size: 35px;
-    font-family: "Century Gothic";
-    background-color: lightgrey;
-    border-style: inset;
-    width: 200px;
+    width: 45%;
     cursor: pointer;
 }
 
 #scroller {
-    position: absolute;
-    bottom: 75px;
-    left: 900px;
+    border-radius: 30px;
+    /*margin-left: 150px;*/
+    margin-top: 10px;
+    width: 200px; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
 }
