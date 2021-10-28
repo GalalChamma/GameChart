@@ -32,3 +32,86 @@ li a:visited {text-decoration: none;}
     border-radius: 12px;
     padding: 14px 16px;
 }
+
+
+#mainContainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#leftContainer {
+    width: 49.5%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightContainer {
+    width: 49.5%;
+    float: right;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+ .box{
+     width: 500px;
+     height: 200px;
+     position: relative;
+     border: 5px solid black;
+     text-align: center;
+     margin: auto;
+     padding: 20px;
+     border-radius: 25px;
+     background-color: lightgray;
+ }
+
+.Why {
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+.Who {
+    margin: auto;
+    margin-top: 70px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+.Source {
+    margin: auto;
+    margin-top: 70px;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+.freq {
+    text-align: center;
+    margin-bottom: 40px;
+}
