@@ -7,9 +7,9 @@ $(document).ready(function () {
 
 
 function fetchingJSON () {
-    $.getJSON("../data/GameSales.json", function (myData) {
+    $.getJSON("../data/games.json", function (myData) {
         //        for (let i = 0; i < myData.length; i++) {
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 10; i++) {
             var aGame = {
                 ID: myData[i].ID.toString(),
                 Name: myData[i].Name.toString(),
@@ -27,13 +27,6 @@ function fetchingJSON () {
                 Global_Sales: myData[i].Global_Sales.toString(),
             }
             all_listings.push(aGame);
-            var aListing = document.createElement("div");
-            aListing.id = "anElement";
-            aListing.innerHTML = (
-                "<div id='individualGame'>" +
-                "<p>" + "Name: " + myData[i].Name + "</p>" +
-                "</div>");
-            $("#listings").append(aListing);
         }
     }).done(function() {
         getChart('bar', 'myChart');
@@ -51,7 +44,7 @@ function getChart(chartType, divElement) {
     let gameChart = new Chart(myChart, {
         type:chartType, // bar, horizontalBar, pie, line, doughnut, radar, polarArea
         data:{
-            labels: ["Global Sales", "NA Sales","PAL Sales"],
+            labels: ["Global Sales", "NA Sales","PAL Sales", "Japan Sales", "Other Sales"],
             datasets:[
                 {
                     label:all_listings[0].Name ,
@@ -72,7 +65,9 @@ function getChart(chartType, divElement) {
                     data: [
                         all_listings[1].Global_Sales,
                         all_listings[1].NA_Sales,
-                        all_listings[1].PAL_Sales
+                        all_listings[1].PAL_Sales,
+                        all_listings[1].JP_Sales,
+                        all_listings[1].Other_Sales
                     ],
                     borderWidth:1,
                     borderColor:'#777',
@@ -85,7 +80,9 @@ function getChart(chartType, divElement) {
                     data: [
                         all_listings[2].Global_Sales,
                         all_listings[2].NA_Sales,
-                        all_listings[2].PAL_Sales
+                        all_listings[2].PAL_Sales,
+                        all_listings[2].JP_Sales,
+                        all_listings[2].Other_Sales
                     ],
                     borderWidth:1,
                     borderColor:'#777',
@@ -97,7 +94,9 @@ function getChart(chartType, divElement) {
                     data: [
                         all_listings[3].Global_Sales,
                         all_listings[3].NA_Sales,
-                        all_listings[3].PAL_Sales
+                        all_listings[3].PAL_Sales,
+                        all_listings[3].JP_Sales,
+                        all_listings[3].Other_Sales
                     ],
                     borderWidth:1,
                     borderColor:'#777',
@@ -109,7 +108,9 @@ function getChart(chartType, divElement) {
                     data: [
                         all_listings[4].Global_Sales,
                         all_listings[4].NA_Sales,
-                        all_listings[4].PAL_Sales
+                        all_listings[4].PAL_Sales,
+                        all_listings[4].JP_Sales,
+                        all_listings[4].Other_Sales
                     ],
                     borderWidth:1,
                     borderColor:'#777',
@@ -121,7 +122,66 @@ function getChart(chartType, divElement) {
                     data: [
                         all_listings[5].Global_Sales,
                         all_listings[5].NA_Sales,
-                        all_listings[5].PAL_Sales
+                        all_listings[5].PAL_Sales,
+                        all_listings[5].JP_Sales,
+                        all_listings[5].Other_Sales
+                    ],
+                    borderWidth:1,
+                    borderColor:'#777',
+                    hoverBorderWidth:3,
+                    hoverBorderColor:'#000'
+                },
+                {
+                    label: all_listings[6].Name,
+                    backgroundColor: 'rgba(255, 145, 191,0.6)',
+                    data: [
+                        all_listings[6].Global_Sales,
+                        all_listings[6].NA_Sales,
+                        all_listings[6].PAL_Sales,
+                        all_listings[6].JP_Sales,
+                        all_listings[6].Other_Sales
+                    ],
+                    borderWidth:1,
+                    borderColor:'#777',
+                    hoverBorderWidth:3,
+                    hoverBorderColor:'#000'
+                },{
+                    label: all_listings[7].Name,
+                    backgroundColor: 'rgba(152, 226, 247, 0.6)',
+                    data: [
+                        all_listings[7].Global_Sales,
+                        all_listings[7].NA_Sales,
+                        all_listings[7].PAL_Sales,
+                        all_listings[7].JP_Sales,
+                        all_listings[7].Other_Sales
+                    ],
+                    borderWidth:1,
+                    borderColor:'#777',
+                    hoverBorderWidth:3,
+                    hoverBorderColor:'#000'
+                },{
+                    label: all_listings[5].Name,
+                    backgroundColor: 'rgba(205, 241, 174, 0.6)',
+                    data: [
+                        all_listings[8].Global_Sales,
+                        all_listings[8].NA_Sales,
+                        all_listings[8].PAL_Sales,
+                        all_listings[8].JP_Sales,
+                        all_listings[8].Other_Sales
+                    ],
+                    borderWidth:1,
+                    borderColor:'#777',
+                    hoverBorderWidth:3,
+                    hoverBorderColor:'#000'
+                },{
+                    label: all_listings[9].Name,
+                    backgroundColor: 'rgba(200, 150, 145, 0.6)',
+                    data: [
+                        all_listings[9].Global_Sales,
+                        all_listings[9].NA_Sales,
+                        all_listings[9].PAL_Sales,
+                        all_listings[9].JP_Sales,
+                        all_listings[9].Other_Sales
                     ],
                     borderWidth:1,
                     borderColor:'#777',
@@ -171,7 +231,11 @@ function getChart2(chartType, divElement) {
                 all_listings[2].Name,
                 all_listings[3].Name,
                 all_listings[4].Name,
-                all_listings[5].Name],
+                all_listings[5].Name,
+                all_listings[6].Name,
+                all_listings[7].Name,
+                all_listings[8].Name,
+                all_listings[9].Name],
             datasets:[
                 {
                     data: [
@@ -180,7 +244,11 @@ function getChart2(chartType, divElement) {
                         all_listings[2].Global_Sales,
                         all_listings[3].Global_Sales,
                         all_listings[4].Global_Sales,
-                        all_listings[5].Global_Sales
+                        all_listings[5].Global_Sales,
+                        all_listings[6].Global_Sales,
+                        all_listings[7].Global_Sales,
+                        all_listings[8].Global_Sales,
+                        all_listings[9].Global_Sales
                     ],
                     //backgroundColor:'green',
                     backgroundColor:[
@@ -190,7 +258,11 @@ function getChart2(chartType, divElement) {
                         'rgba(75, 192, 192, 0.6)',
                         'rgba(153, 102, 255, 0.6)',
                         'rgba(255, 159, 64, 0.6)',
-                        'rgba(255, 99, 132, 0.6)'
+                        'rgba(255, 145, 191,0.6)',
+                        'rgba(152, 226, 247, 0.6)',
+                        'rgba(205, 241, 174, 0.6)',
+                        'rgba(200, 150, 145, 0.6)',
+                        'rgba(200, 150, 145, 0.6)'
                     ],
                     borderWidth:1,
                     borderColor:'#777',

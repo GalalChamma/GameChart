@@ -1,42 +1,48 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Game Chart</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>GameChart Home</title>
 
-    <script src="../scripts/index.js"></script>
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
 </head>
-<body style="justify-content: center; justify-items: center; text-align: center">
-    <h1>GameChart</h1>
+<body>
 
-    <h1>Game Sales Visualization Tool</h1>
-    <h3>These data are fetched from our dataset. Can be found in data/GamesSales.json</h3>
-    <div style="height: 40px"></div>
-    <div id="motherContainer" style="justify-content: center">
-        <!-- style="border: thin solid black -->
-        <div class="container" style="margin: auto;width: 50%"><h3>Bar Chart for multi region Sales</h3></br></br>
-            <canvas id="myChart" style="padding-right: 40px"></canvas>
+
+
+
+<main>
+    <div id = leftContainer>
+        <div>
+            <form method="GET" action="search.html">
+                <input type="text" id="search" class="menuButton" name="game" placeholder="Search">
+            </form>
         </div>
-
-        <div style="height: 100px"></div>
-
-        <div class="container" style="margin: auto;width: 30%;"><h3>Pie Chart for Global Sales</h3></br></br>
-            <canvas id="myChart2" style="margin-right: 40px"></canvas>
+        <div>
+            <input type="button" id = "table" class="menuButton" value="Tables" onclick="location.href='tables.html'">
         </div>
-
-        <div style="height: 100px"></div>
-
-        <div class="container" style="margin: auto;width: 30%"><h3>Doughnut Chart for Global Sales</h3></br></br>
-            <canvas id="myChart3" style="margin-right: 40px"></canvas>
+        <div>
+            <input type="button" id = "chart" class="menuButton" value="Charts" onclick="location.href='charts.html'">
         </div>
-
-        <div style="height: 100px"></div>
-
-        <div id="listings">First Games</div>
+        <div>
+            <input type="button" id = "about" class="menuButton" value="About" onclick="location.href='about.html'">
+        </div>
     </div>
+
+    <div id = "rightContainer">
+        <div id="game-chart-title">
+            <h1>GameChart</h1>
+        </div>
+        <div id="main-title">
+            <hr id="hr-line">
+            <h2>A Game Data Visualization Tool</h2>
+            <a href="game.html?game=27464">
+            <img id = "scroller" src="../images/mario.jpeg">
+            </a>
+        </div>
+    </div>
+</main>
+
+
 </body>
+</html>
