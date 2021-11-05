@@ -2,6 +2,39 @@ var all_listings = [];
 
 
 $(document).ready(function () {
+    var modal = document.getElementById("filterModel");
+    var btn = document.getElementById("filter");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function () {
+        modal.style.display = "flex";
+    }
+
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    document.getElementById('genre').onchange = function() {
+        document.getElementById('genreList').disabled = !this.checked;
+    };
+
+    document.getElementById('year').onchange = function() {
+        document.getElementById('minY').disabled = !this.checked;
+        document.getElementById('maxY').disabled = !this.checked;
+    };
+
+    document.getElementById('platform').onchange = function() {
+        document.getElementById('platList').disabled = !this.checked;
+    };
+
+    document.getElementById('publisher').onchange = function() {
+        document.getElementById('pubT').disabled = !this.checked;
+    };
+
+    document.getElementById('developer').onchange = function() {
+        document.getElementById('devT').disabled = !this.checked;
+    };
+
     fetchingJSON();
 });
 

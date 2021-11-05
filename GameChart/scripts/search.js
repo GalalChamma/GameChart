@@ -6,6 +6,57 @@ const params = (new URL(document.location)).searchParams;
 const searchInput = params.get("game");
 
 $(document).ready(function () {
+    /**
+    document.getElementById('filter').addEventListener('click',
+        function () {
+            document.querySelector('.fitlerModel').style.display = 'flex';
+        });
+
+    document.querySelector('.close').addEventListener('click',
+        function () {
+            document.querySelector('.fitlerModel').style.display = 'none';
+        }); **/
+
+    var modal = document.getElementById("filterModel");
+    var btn = document.getElementById("filter");
+    var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function () {
+            modal.style.display = "flex";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        /**
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        } **/
+
+    document.getElementById('genre').onchange = function() {
+        document.getElementById('genreList').disabled = !this.checked;
+    };
+
+    document.getElementById('year').onchange = function() {
+        document.getElementById('minY').disabled = !this.checked;
+        document.getElementById('maxY').disabled = !this.checked;
+    };
+
+    document.getElementById('platform').onchange = function() {
+        document.getElementById('platList').disabled = !this.checked;
+    };
+
+    document.getElementById('publisher').onchange = function() {
+        document.getElementById('pubT').disabled = !this.checked;
+    };
+
+    document.getElementById('developer').onchange = function() {
+        document.getElementById('devT').disabled = !this.checked;
+    };
+
     var input = document.createElement("div");
     input.innerHTML = ("<p>" + searchInput + "</p>");
     $("#listings").append(input);
