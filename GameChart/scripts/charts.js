@@ -159,7 +159,7 @@ function getInitialChartData(array){
     color_i = 0;
     for (var i = starting_index_multiBarChart; i < starting_index_multiBarChart +10; i++){
         var newObj = {
-            label: array[i].Name,// + " ("+  array[i].Platform.toString() + ")",
+            label: array[i].Name+ " ("+  array[i].Platform.toString() + ")",
             backgroundColor: BACKGROUND_COLOR[color_i],
             data: [
                 array[i].Global_Sales,
@@ -186,7 +186,7 @@ function SetupSecondaryChart_Pie() {
     labels_ = [];
     for (var i = starting_index_pieChart; i < starting_index_pieChart+10; i++){
         data_.push(displayedGames[i].Global_Sales);
-        labels_.push(displayedGames[i].Name);
+        labels_.push(displayedGames[i].Name + " ("+  displayedGames[i].Platform.toString() + ")");
     }
     starting_index_pieChart += 10;
 
@@ -257,7 +257,7 @@ function SetupSecondaryChart_Doughnut() {
     labels_ = [];
     for (var i = starting_index_doughnutChart; i < starting_index_doughnutChart+10; i++){
         data_.push(displayedGames[i].Global_Sales);
-        labels_.push(displayedGames[i].Name);
+        labels_.push(displayedGames[i].Name + " ("+  displayedGames[i].Platform.toString() + ")");
     }
     starting_index_doughnutChart += 10;
 
@@ -331,10 +331,18 @@ function graphClickEvent(event, array){
         // array[0].datasetIndex --> The bar clicked on in the sub-graph.
         console.log("index clicked on ", array[0].datasetIndex);
         var index = array[0].datasetIndex;
-        var label = multiBarChart.data.datasets[index].label;
-        console.log(label);
+        // entire label that includes both the game name and platform
+        var entire_label = multiBarChart.data.datasets[index].label;
+        // slices off the platform from the entire label and saves it to label variable
+        var label = entire_label.slice(0,entire_label.lastIndexOf(' '));
+        // gets the last word of the entire label, which is the platform
+        var gamePlat = entire_label.slice(entire_label.lastIndexOf(' ')+1, entire_label.length);
+        // removes the paranthesis '(' and ')' from around the platform
+        var gamePlat = gamePlat.slice(1,gamePlat.length-1);
+        // logging the clean up variables
+        console.log(entire_label.slice(0,entire_label.lastIndexOf(' ') ) + "  ---> for platform:  " + gamePlat);
         for (var game of displayedGames) {
-            if (game.Name == label) {
+            if (game.Name == label && game.Platform == gamePlat) {
                 // open in new tab.
                 window.open('game.html?game=' + game.ID, '_blank').focus();
                 break; // prevents opening more that one tab because of duplicate games in the dataset.
@@ -347,9 +355,17 @@ function graphClickEvent(event, array){
 function graphClickEvent2(event, array){
     if(array[0]){
         var myIndex = array[0].index;
-        var label = multiBarChart.data.datasets[myIndex].label;
+        // entire label that includes both the game name and platform
+        var entire_label = multiBarChart.data.datasets[myIndex].label;
+        // slices off the platform from the entire label and saves it to label variable
+        var label = entire_label.slice(0,entire_label.lastIndexOf(' '));
+        // gets the last word of the entire label, which is the platform
+        var gamePlat = entire_label.slice(entire_label.lastIndexOf(' ')+1, entire_label.length);
+        // removes the paranthesis '(' and ')' from around the platform
+        var gamePlat = gamePlat.slice(1,gamePlat.length-1);
+        console.log(entire_label.slice(0,entire_label.lastIndexOf(' ') ) + "  ---> for platform:  " + gamePlat);
         for (var game of displayedGames) {
-            if (game.Name == label) {
+            if (game.Name == label && game.Platform == gamePlat) {
                 // open in new tab.
                 window.open('game.html?game=' + game.ID, '_blank').focus();
                 break; // prevents opening more that one tab because of duplicate games in the dataset.
@@ -470,6 +486,8 @@ function SetupMainChart(array) {
 // if forward = true --> Get Next 10 games
 // if forward = false --> Get previous 10 games
 function UpdateMultiBarChart(array, forward){
+    console.log("ARRAY in UpdateMuliBarChart");
+    console.log(array);
     var index = null;
     if (forward){
         index = starting_index_multiBarChart;
@@ -482,25 +500,27 @@ function UpdateMultiBarChart(array, forward){
     all_games = [];
     color_i = 0;
     for (var i = 0; i < 10; i++){
-        var newObj = {
-            label: array[index].Name,
-            backgroundColor: BACKGROUND_COLOR[color_i],
-            data: [
-                array[index].Global_Sales,
-                array[index].NA_Sales,
-                array[index].PAL_Sales,
-                array[index].JP_Sales,
-                array[index].Other_Sales
-            ],
-            borderRadius: 3,   // gives the bars a curved corner
-            borderWidth: 1,
-            borderColor: '#777',
-            hoverBorderWidth: 3,
-            hoverBorderColor: '#000'
+        if (array[index]!=null) {
+            var newObj = {
+                label: array[index].Name + " ("+  array[index].Platform.toString() + ")",
+                backgroundColor: BACKGROUND_COLOR[color_i],
+                data: [
+                    array[index].Global_Sales,
+                    array[index].NA_Sales,
+                    array[index].PAL_Sales,
+                    array[index].JP_Sales,
+                    array[index].Other_Sales
+                ],
+                borderRadius: 3,   // gives the bars a curved corner
+                borderWidth: 1,
+                borderColor: '#777',
+                hoverBorderWidth: 3,
+                hoverBorderColor: '#000'
+            }
+            all_games.push(newObj);
+            color_i++;
+            index++;
         }
-        all_games.push(newObj);
-        color_i++;
-        index++;
     }
     if (forward){
         starting_index_multiBarChart += 10;
@@ -544,9 +564,11 @@ function UpdatePieChart(array, forward) {
     data_ = [];
     labels_ = [];
     for (var i = 0; i < 10; i++) {
-        data_.push(displayedGames[index].Global_Sales);
-        labels_.push(displayedGames[index].Name);
-        index++;
+        if (displayedGames[index]!=null) {
+            data_.push(displayedGames[index].Global_Sales);
+            labels_.push(displayedGames[index].Name + " ("+  displayedGames[index].Platform.toString() + ")");
+            index++;
+        }
     }
 
     var data = {
@@ -586,9 +608,11 @@ function UpdateDoughnutChart(array, forward) {
     data_ = [];
     labels_ = [];
     for (var i = 0; i < 10; i++) {
-        data_.push(displayedGames[index].Global_Sales);
-        labels_.push(displayedGames[index].Name);
-        index++;
+        if (displayedGames[index]!=null) {
+            data_.push(displayedGames[index].Global_Sales);
+            labels_.push(displayedGames[index].Name + " ("+  displayedGames[index].Platform.toString() + ")");
+            index++;
+        }
     }
 
     var data = {
