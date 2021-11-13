@@ -1,7 +1,10 @@
 html, body {
-    width: 100%; /* specify width on parent */
+    /* the following removes the extra empty space present on top of the page and on the sides*/
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
+
 
 ul {
     list-style: none;
@@ -253,5 +256,7 @@ select {
     height: 25px;
     margin: 5px;
 }
+
+
 
 
