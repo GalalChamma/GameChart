@@ -1,3 +1,8 @@
+html, body {
+    width: 100%; /* specify width on parent */
+    height: 100%;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -34,14 +39,14 @@ li a:visited {text-decoration: none;}
 }
 
 #filter {
-    position: absolute;
-    right: 100px;
-    border-radius: 12px;
-    width: 120px;
-    height: 70px;
-    font-size: 35px;
+    /*position: absolute;*/
     font-family: "Century Gothic";
     cursor: pointer;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 400px;    /* remove later and correctly center all three buttons */
 }
 
 h3 {
@@ -84,7 +89,15 @@ h3 {
     display: inline;
     text-align: center;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
+}
+
+#nameDiv{
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 15%;
 }
 
 #platDiv {
@@ -92,7 +105,7 @@ h3 {
     display: inline;
     text-align: center;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
 }
 
 #platDiv {
@@ -100,7 +113,7 @@ h3 {
     display: inline;
     text-align: center;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
 }
 
 #pubDiv {
@@ -108,7 +121,7 @@ h3 {
     display: inline;
     text-align: center;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
 }
 
 #devDiv {
@@ -116,7 +129,7 @@ h3 {
     display: inline;
     text-align: center;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
 }
 
 #apply {
@@ -124,6 +137,7 @@ h3 {
     float: right;
     padding: 70px;
 }
+
 
 input[type="submit"] {
     width: 115px;
@@ -158,11 +172,86 @@ select {
     right: 0;
 }
 
-/**
-#sort {
-    position: absolute;
-    right: 100px;
+.card-body{
+    outline: solid green;
+}
+
+
+
+
+#previousBtn{
+    float: left;
+    height: 100px;
     width: 200px;
-    font-size: 25px;
-    font-family: "Century Gothic";
-} **/
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#nextBtn{
+    float: right;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.flex-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#graph1{
+    padding-bottom: 40px;
+    border-bottom: lightgray 3px solid;
+    margin: auto;
+    width: 90%;
+}
+
+#graph2{
+    width: 40%;
+}
+
+#graph3{
+    border-left: lightgray 3px solid;
+    width: 40%;
+}
+
+#myChart_First{
+
+}
+
+#myChart_Second{
+    width: 100%;
+    /*
+    width:500px !important;
+    height:500px !important;
+     */
+}
+
+#myChart_Third{
+    width: 100%;
+    /*
+    width:500px !important;
+    height:500px !important;
+     */
+}
+
+.miniChartsButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choiceButton{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+}
+
+

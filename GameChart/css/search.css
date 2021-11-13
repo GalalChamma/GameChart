@@ -70,7 +70,7 @@ p {
     font-family: "Century Gothic";
     width: 1000px;
     height: 350px;
-    background-color: white;
+    background-color: grey;
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -130,7 +130,7 @@ p {
     padding: 70px;
 }
 
-input[type="submit"] {
+#filterApplyBtn {
     width: 115px;
     height: 70px;
     font-size: 30px;
