@@ -9,7 +9,10 @@ $(document).ready(function () {
 
 function findGame () {
     $.getJSON("../data/games.json", function (myData) {
+        //        for (let i = 0; i < myData.length; i++) {
         for (let i = 0; i < myData.length; i++) {
+            //var game_name = myData[i].Name.toString().toLowerCase();
+            //var search_input_lower = searchInput.toString().toLowerCase();
             if (myData[i].ID == parseInt(searchInput)) {
                 game_found = {
                     ID: myData[i].ID.toString(),
@@ -39,124 +42,24 @@ function findGame () {
             } else {
                 var image = game_found.URL;
             }
-
             aListing.innerHTML = (
-                "<div id='individualGame' class='row'>" +
-                    "<div id='listingThumbnailContainer' class='column'>" +
-                        "<img id='thumbnail' src=" + image + " >" +
-                    "</div>" +
-                    "<div class='column'>" +
-                        "<h3>" + game_found.Name + "</h3>" +
-                        "<p>" + game_found.Genre + "</p>" +
-                        "<p>" + game_found.Year + "<br><br></p>" +
-                    "</div>" +
-                    "<div class='column'>" +
-                        "<p>" + "Platform: " + game_found.Platform + "</p>" +
-                        "<p>" + "Developer: " + game_found.Developer + "</p>" +
-                        "<p>" + "Publisher: " + game_found.Publisher + "</p>" +
-                        "<p>" + "Global Sales: " +game_found.Global_Sales + " million"+ "</p>" +
-                        "<p>" + "NA Sales: " +game_found.NA_Sales + " million"+ "</p>" +
-                        "<p>" + "PAL Sales: " +game_found.PAL_Sales + " million"+ "</p>" +
-                        "<p>" + "Japan Sales: " +game_found.JP_Sales + " million"+ "</p>" +
-                        "<p>" + "Other Sales: " +game_found.Other_Sales + " million" + "</p>" +
-                    "</div>" +
+                "<div id='individualGame'>" +
+                "<div id='listingThumbnailContainer'>" +
+                "<img id='thumbnail' src=" + image + " >" +
+                "</div>" +
+                "<h3>" + game_found.Name + "</h3>" +
+                "<p>" + game_found.Genre + "</p>" +
+                "<p>" + game_found.Year + "<br><br></p>" +
+                "<p>" + game_found.Platform + "</p>" +
+                "<p>" + "Developer: " + game_found.Developer + "</p>" +
+                "<p>" + "Publisher: " + game_found.Publisher + "</p>" +
+                "<p>" + "Global Sales: " +game_found.Global_Sales + " million"+ "</p>" +
+                "<p>" + "NA Sales: " +game_found.NA_Sales + " million"+ "</p>" +
+                "<p>" + "PAL Sales: " +game_found.PAL_Sales + " million"+ "</p>" +
+                "<p>" + "Japan Sales: " +game_found.JP_Sales + " million"+ "</p>" +
+                "<p>" + "Other Sales: " +game_found.Other_Sales + " million" + "</p>" +
+
                 "</div>");
-
-            //I hate having to write this here but this was the only way to get game_found while it was not null
-            let salesChart = document.getElementById("salesChart").getContext('2d');
-            let singleGameChart = new Chart(salesChart, {
-                type: 'bar',
-                data: {
-                    labels: ["Global Sales", "NA Sales", "PAL Sales", "Japan Sales", "Other Sales"],
-                    datasets: [{
-                        data: [
-                            game_found.Global_Sales,
-                            game_found.NA_Sales,
-                            game_found.PAL_Sales,
-                            game_found.JP_Sales,
-                            game_found.Other_Sales
-                        ],
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.6)',
-                            'rgba(54, 162, 235, 0.6)',
-                            'rgba(255, 206, 86, 0.6)',
-                            'rgba(75, 192, 192, 0.6)',
-                            'rgba(153, 102, 255, 0.6)'],
-                        borderWidth:1,
-                        borderColor:'#777',
-                        hoverBorderWidth:3,
-                        hoverBorderColor:'#000'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        xAxes: {
-                            title: {
-                                display: true,
-                                text: 'Region'
-                            }
-                        },
-                        yAxes: {
-                            title: {
-                                display: true,
-                                text: 'Units Sold (in millions)'
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        title: {
-                            display: true,
-                            text: 'Game Sales by Region',
-                            font:{
-                                size: 25
-                            }
-                        }
-                    }
-                }
-            })
-
-            let salesPieChart = document.getElementById("salesPieChart").getContext('2d');
-            let singleGamePie = new Chart(salesPieChart, {
-                type: 'pie',
-                data: {
-                    labels: ["NA Sales", "PAL Sales", "Japan Sales", "Other Sales"],
-                    datasets: [{
-                        label: 'Sales',
-                        data: [
-                            game_found.NA_Sales,
-                            game_found.PAL_Sales,
-                            game_found.JP_Sales,
-                            game_found.Other_Sales
-                        ],
-                        backgroundColor: [
-                            'rgba(54, 162, 235, 0.6)',
-                            'rgba(255, 206, 86, 0.6)',
-                            'rgba(75, 192, 192, 0.6)',
-                            'rgba(153, 102, 255, 0.6)'],
-                        borderWidth:1,
-                        borderColor:'#777',
-                        hoverBorderWidth:3,
-                        hoverBorderColor:'#000'
-                    }]
-                },
-                options:{
-                    responsive: true,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Game Sales by Region',
-                            font:{
-                                size: 25
-                            }
-                        }
-                    }
-                }
-            })
-
             $("#listings").append(aListing);
         }
     }).done(function() {

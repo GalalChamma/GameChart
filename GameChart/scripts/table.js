@@ -45,8 +45,7 @@ function showTable() {
                         // alert(`${field} was clicked`);
 
                         // future: take user to the following page
-                        //document.location = 'game.html?game=' + field
-                        window.open('game.html?game=' + field, '_blank').focus();
+                        document.location = 'game.html?game=' + field
                     }
                 },
                 minWidth: 150
@@ -116,7 +115,6 @@ ViewButton.prototype.init = function(params) {
 
     this.eGui = document.createElement('button');
     this.eGui.innerHTML = 'View';
-    this.eGui.id = "ViewButton";
 
     this.btnClickedHandler = this.btnClickedHandler.bind(this);
     this.eGui.addEventListener('click', this.btnClickedHandler);
