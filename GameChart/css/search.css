@@ -47,7 +47,7 @@ p1{
     font-size: 25px;
     font-family: "Century Gothic";
 }
-.flex-container{
+.flex-container:nth-child(odd){
     display: flex;
     flex-basis: 100%;
     gap: 1em;
