@@ -51,12 +51,16 @@ li a:visited {text-decoration: none;}
     cursor: pointer;
 }
 
+h1 {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
 }
 
 p {
-    font-size: 25px;
+    font-size: 13px;
     font-family: "Century Gothic";
 }
 
@@ -168,4 +172,51 @@ select {
     font-size: 50px;
     cursor: pointer;
     right: 0;
+}
+
+/*#listings {*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
+
+#thumbnail {
+    border-radius: 25px;
+    height: auto;
+    width: 150px;
+    object-position: center;
+    transition: transform .2s ease;
+}
+
+#thumbnail:hover {
+    transform: scale(1.1) ;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    background: lightgray;
+    border-radius: 25px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto 20px;
+    align-content: stretch;
+    align-items: center;
+    flex-grow: 1;
+    border: 3px solid black;
+    transition: transform .3s ease;
+}
+
+/* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.flex-container:hover{
+    transform: scale(1.1);
+}
+
+.box1 {
+    padding: 20px;
+}
+
+.box2 {
+    width: auto;
+    height: auto;
 }

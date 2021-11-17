@@ -52,7 +52,8 @@ $(document).ready(function () {
 
     // printing the user search input. Remove this later.
     var input = document.createElement("div");
-    input.innerHTML = ("<p>" + searchInput + "</p>");
+    input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>" + "<br>" +
+                        "<h3>" + "Click on the image for more game information"+ "</h3>");
     $("#listings").append(input);
 
     fetchingJSON();
@@ -244,16 +245,20 @@ function displayGames(array_to_display) {
             var image = aGame.URL;
         }
         aListing.innerHTML = (
-            "<div id='individualGame'>" +
-            "<div id='listingThumbnailContainer'>" +
-            "<img id='thumbnail' src=" + image + " >" +
-            "</div>" +
-            "<p>" + aGame.Name + "</p>" +
-            "<p> Genre: " + aGame.Genre + "</p>" +
-            "<p> Platform: " + aGame.Platform + "</p>" +
-            "<p> Developer: " + aGame.Developer + "</p>" +
-            "<p> Publisher: " + aGame.Publisher + "</p>" +
-            "<p> Year: " + aGame.Year + "</p>" +
+            "<div class='flex-container' id='individualGame'>" +
+                "<div class='box1' id='listingThumbnailContainer'>" +
+                    "<a href=game.html?game="+ aGame.ID + ">" +
+                    "<img id='thumbnail' src=" + image + ">" +
+                    "</a>" +
+                "</div>" +
+                "<div class='box2'>" +
+                    "<p>" + aGame.Name + "</p>" +
+                    "<p> Genre: " + aGame.Genre + "</p>" +
+                    "<p> Platform: " + aGame.Platform + "</p>" +
+                    "<p> Developer: " + aGame.Developer + "</p>" +
+                    "<p> Publisher: " + aGame.Publisher + "</p>" +
+                    "<p> Year: " + aGame.Year + "</p>" +
+                "</div>" +
             "</div>");
         $("#listings").append(aListing);
     }
@@ -295,16 +300,20 @@ function fetchingJSON () {
                     var image = aGame.URL;
                 }
                 aListing.innerHTML = (
-                    "<div id='individualGame'>" +
-                    "<div id='listingThumbnailContainer'>" +
-                    "<img id='thumbnail' src=" + image + " >" +
-                    "</div>" +
-                    "<p>" + aGame.Name + "</p>" +
-                    "<p> Genre: " + aGame.Genre + "</p>" +
-                    "<p> Platform: " + aGame.Platform + "</p>" +
-                    "<p> Developer: " + aGame.Developer + "</p>" +
-                    "<p> Publisher: " + aGame.Publisher + "</p>" +
-                    "<p> Year: " + aGame.Year + "</p>" +
+                    "<div class='flex-container' id='individualGame'>" +
+                        "<div class='box1' id='listingThumbnailContainer'>" +
+                            "<a href=game.html?game="+ aGame.ID + ">" +
+                            "<img id='thumbnail' src=" + image + ">" +
+                            "</a>" +
+                        "</div>" +
+                        "<div class='box2'>" +
+                            "<p>" + aGame.Name + "</p>" +
+                            "<p> Genre: " + aGame.Genre + "</p>" +
+                            "<p> Platform: " + aGame.Platform + "</p>" +
+                            "<p> Developer: " + aGame.Developer + "</p>" +
+                            "<p> Publisher: " + aGame.Publisher + "</p>" +
+                            "<p> Year: " + aGame.Year + "</p>" +
+                        "</div>" +
                     "</div>");
                 $("#listings").append(aListing);
             }
