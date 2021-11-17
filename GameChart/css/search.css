@@ -1,3 +1,10 @@
+html, body {
+    /* the following removes the extra empty space present on top of the page and on the sides*/
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -22,7 +29,7 @@ li a:visited {text-decoration: none;}
 
 #search {
     position: relative;
-    left: 200px;
+    left: 250px;
     width: 400px;
     height: 35px;
     font-size: 30px;
@@ -33,14 +40,21 @@ li a:visited {text-decoration: none;}
     padding: 14px 16px;
 }
 
-h1{
+#filter {
+    position: absolute;
+    right: 100px;
+    border-radius: 12px;
+    width: 120px;
+    height: 70px;
+    font-size: 35px;
+    font-family: "Century Gothic";
+    cursor: pointer;
+}
+
+h1 {
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-
-p {
-=======
 h2 {
 
 }
@@ -50,7 +64,7 @@ h3 {
 }
 
 p {
-    font-size: medium;
+    font-size: 13px;
     font-family: "Century Gothic";
 }
 
@@ -67,38 +81,109 @@ p {
 }
 
 .filter-content {
->>>>>>> Stashed changes
     font-size: 20px;
+    font-family: "Century Gothic";
+    width: 1000px;
+    height: 350px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+#genreDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#yearDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#platDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#platDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#pubDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#devDiv {
+    float: left;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+}
+
+#apply {
+    text-align: center;
+    float: right;
+    padding: 70px;
+}
+
+#filterApplyBtn {
+    width: 115px;
+    height: 70px;
+    font-size: 30px;
+    font-family: "Century Gothic";
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+input {
+    margin: 0 auto;
+    height: 20px;
     font-family: "Century Gothic";
 }
 
-p1{
-    font-size: 25px;
+select {
+    height: 200px;
+    width: 150px;
     font-family: "Century Gothic";
 }
-.flex-container:nth-child(odd){
-    display: flex;
-    flex-basis: 100%;
-    gap: 1em;
-    justify-content: center;
+
+.yearsM {
+    width: 50px;
 }
-.parent {
-    width: 1000px;
-    border-radius: 25px;
-<<<<<<< Updated upstream
-    background: lightgray;
-    margin: 1rem;
-    padding: 50px 50px;
+
+.close {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    cursor: pointer;
+    right: 0;
 }
-.child {
-    display: inline-block;
-    padding: 1rem 1rem;
-}
-=======
+
+#thumbnail {
     height: auto;
     width: 180px;
     max-height:250px;
     object-position: center;
+    border-radius: 25px;
     transition: transform .2s ease;
 }
 
@@ -146,4 +231,3 @@ p1{
     display: table;
     clear: both;
 }
->>>>>>> Stashed changes
