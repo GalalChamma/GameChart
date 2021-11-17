@@ -50,11 +50,10 @@ $(document).ready(function () {
         document.getElementById('devT').disabled = !this.checked;
     };
 
-    // printing the user search input. Remove this later.
-    var input = document.createElement("div");
+    // printing the user search input.
+    var input = document.getElementById("infoHeader");
     input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>" + "<br>" +
                         "<h3>" + "Click on the image for more game information"+ "</h3>");
-    $("#listings").append(input);
 
     fetchingJSON();
 });

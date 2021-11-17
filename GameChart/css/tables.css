@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 html, body {
     /* the following removes the extra empty space present on top of the page and on the sides*/
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Rubik', sans-serif;
+    background-color: whitesmoke;
 }
 
 ul {
@@ -18,7 +22,6 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    font-family: "Century Gothic";
     font-size: 30px;
     padding: 14px 16px;
     border-right: solid 2px;
@@ -33,7 +36,6 @@ li a:visited {text-decoration: none;}
     width: 400px;
     height: 35px;
     font-size: 30px;
-    font-family: "Century Gothic";
     background-color: lightgrey;
     text-align: left;
     border-radius: 12px;
@@ -54,5 +56,4 @@ li a:visited {text-decoration: none;}
     border-radius: 5px;
     width: 80%;
     height: 80%;
-
 }

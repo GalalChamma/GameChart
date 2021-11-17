@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 html, body {
     /* the following removes the extra empty space present on top of the page and on the sides*/
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Rubik', sans-serif;
+    background-color: whitesmoke;
 }
 
 #leftContainer{
@@ -26,7 +30,6 @@ html, body {
 }
 
 body {
-    font-family: "Arial Black";
     letter-spacing: -2px;
 }
 

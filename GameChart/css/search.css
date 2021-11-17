@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
 html, body {
     /* the following removes the extra empty space present on top of the page and on the sides*/
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Rubik', sans-serif;
+    background-color: whitesmoke;
 }
 
 ul {
@@ -18,7 +22,6 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    font-family: "Century Gothic";
     font-size: 30px;
     padding: 14px 16px;
     border-right: solid 2px;
@@ -33,7 +36,6 @@ li a:visited {text-decoration: none;}
     width: 400px;
     height: 35px;
     font-size: 30px;
-    font-family: "Century Gothic";
     background-color: lightgrey;
     text-align: left;
     border-radius: 12px;
@@ -47,7 +49,6 @@ li a:visited {text-decoration: none;}
     width: 120px;
     height: 70px;
     font-size: 35px;
-    font-family: "Century Gothic";
     cursor: pointer;
 }
 
@@ -61,7 +62,6 @@ h3 {
 
 p {
     font-size: 13px;
-    font-family: "Century Gothic";
 }
 
 .filterModel {
@@ -78,10 +78,9 @@ p {
 
 .filter-content {
     font-size: 20px;
-    font-family: "Century Gothic";
     width: 1000px;
     height: 350px;
-    background-color: grey;
+    background-color: white;
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -145,7 +144,6 @@ p {
     width: 115px;
     height: 70px;
     font-size: 30px;
-    font-family: "Century Gothic";
     cursor: pointer;
     border-radius: 30px;
 }
@@ -153,13 +151,11 @@ p {
 input {
     margin: 0 auto;
     height: 20px;
-    font-family: "Century Gothic";
 }
 
 select {
     height: 200px;
     width: 150px;
-    font-family: "Century Gothic";
 }
 
 .yearsM {
@@ -174,17 +170,22 @@ select {
     right: 0;
 }
 
-/*#listings {*/
-/*    justify-content: center;*/
-/*    text-align: center;*/
-/*}*/
+#listings {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
 #thumbnail {
-    border-radius: 25px;
     height: auto;
     width: 150px;
     object-position: center;
     transition: transform .2s ease;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 #thumbnail:hover {
@@ -198,13 +199,15 @@ select {
     background: lightgray;
     border-radius: 25px;
     width: 400px;
-    height: auto;
+    height: 250px;
     margin: 0 auto 20px;
     align-content: stretch;
     align-items: center;
     flex-grow: 1;
     border: 3px solid black;
     transition: transform .3s ease;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -219,4 +222,8 @@ select {
 .box2 {
     width: auto;
     height: auto;
+}
+
+#infoHeader{
+    width: 100%;
 }
