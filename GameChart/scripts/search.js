@@ -1,4 +1,5 @@
 var matched_listings = [];
+var games_after_filter = [];
 
 // the following line is an HTML command
 const params = (new URL(document.location)).searchParams;
@@ -6,15 +7,58 @@ const params = (new URL(document.location)).searchParams;
 const searchInput = params.get("game");
 
 $(document).ready(function () {
+
+    // Setting the search bar text to what the user searched for
+    document.getElementById("search").value = searchInput;
+
+    document.getElementById("filterApplyBtn").onclick = function () {
+        model.style.display = "none";
+        getFilterChoices();
+    }
+
+    var model = document.getElementById("filterModel");
+    var btn = document.getElementById("filter");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function () {
+        model.style.display = "flex";
+    }
+
+    span.onclick = function () {
+        model.style.display = "none";
+    }
+
+
+    document.getElementById('genre').onchange = function() {
+        document.getElementById('genreList').disabled = !this.checked;
+    };
+
+    document.getElementById('year').onchange = function() {
+        document.getElementById('minY').disabled = !this.checked;
+        document.getElementById('maxY').disabled = !this.checked;
+    };
+
+    document.getElementById('platform').onchange = function() {
+        document.getElementById('platList').disabled = !this.checked;
+    };
+
+    document.getElementById('publisher').onchange = function() {
+        document.getElementById('pubT').disabled = !this.checked;
+    };
+
+    document.getElementById('developer').onchange = function() {
+        document.getElementById('devT').disabled = !this.checked;
+    };
+
+    // printing the user search input. Remove this later.
     var input = document.createElement("div");
-    input.innerHTML = ("<h1>" + "Search results for " + searchInput + "</h1>");
+    input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>" + "<br>" +
+                        "<h3>" + "Click on the image for more game information"+ "</h3>");
     $("#listings").append(input);
-    findGame();
+
+    fetchingJSON();
 });
 
-<<<<<<< Updated upstream
-function findGame () {
-=======
 function seeIfChecked(checkboxID) {
     return document.getElementById(checkboxID).checked;
 }
@@ -208,7 +252,7 @@ function displayGames(array_to_display) {
                     "</a>" +
                 "</div>" +
                 "<div class='box2'>" +
-                    "<h2>" + aGame.Name + "</h2>" +
+                    "<p>" + aGame.Name + "</p>" +
                     "<p> Genre: " + aGame.Genre + "</p>" +
                     "<p> Platform: " + aGame.Platform + "</p>" +
                     "<p> Developer: " + aGame.Developer + "</p>" +
@@ -222,15 +266,12 @@ function displayGames(array_to_display) {
 
 
 function fetchingJSON () {
->>>>>>> Stashed changes
     $.getJSON("../data/games.json", function (myData) {
-        for (let i = 0; i < myData.length+1; i+=2) {
-            var game_name1 = myData[i].Name.toString().toLowerCase();
-            var game_name2 = myData[i+1].Name.toString().toLowerCase();
+        for (let i = 0; i < myData.length; i++) {
+            var game_name = myData[i].Name.toString().toLowerCase();
             var search_input_lower = searchInput.toString().toLowerCase();
-
-            if (game_name1.includes(search_input_lower)) {
-                var aGame1 = {
+            if (game_name.includes(search_input_lower)) {
+                var aGame = {
                     ID: myData[i].ID.toString(),
                     Name: myData[i].Name.toString(),
                     Platform: myData[i].Platform.toString(),
@@ -247,84 +288,17 @@ function fetchingJSON () {
                     Global_Sales: myData[i].Global_Sales.toString(),
                     URL: myData[i].URL.toString()
                 }
-            }
-            if (game_name2.includes(search_input_lower)) {
-                var aGame2 = {
-                    ID: myData[i+1].ID.toString(),
-                    Name: myData[i+1].Name.toString(),
-                    Platform: myData[i+1].Platform.toString(),
-                    Year: myData[i+1].Year.toString(),
-                    Genre: myData[i+1].Genre.toString(),
-                    Publisher: myData[i+1].Publisher.toString(),
-                    Developer: myData[i+1].Developer.toString(),
-                    Critic_Score: myData[i+1].Critic_Score.toString(),
-                    User_Score: myData[i+1].User_Score.toString(),
-                    NA_Sales: myData[i+1].NA_Sales.toString(),
-                    PAL_Sales: myData[i+1].PAL_Sales.toString(),
-                    JP_Sales: myData[i+1].JP_Sales.toString(),
-                    Other_Sales: myData[i+1].Other_Sales.toString(),
-                    Global_Sales: myData[i+1].Global_Sales.toString(),
-                    URL: myData[i+1].URL.toString()
-                }
                 // add game to array
-                matched_listings.push(aGame1);
-                matched_listings.push(aGame2);
+                matched_listings.push(aGame);
 
                 // create a div element to house the game
                 var aListing = document.createElement("div");
                 aListing.id = "anElement";
-
-                if (aGame1.URL.toString().toLowerCase().includes("notfound")) {
-                    var image1 = "../images/default.png";
+                if (aGame.URL.toString().toLowerCase().includes("notfound")) {
+                    var image = "../images/default.png";
                 } else {
-                    var image1 = aGame1.URL;
+                    var image = aGame.URL;
                 }
-
-<<<<<<< Updated upstream
-                if (aGame2.URL.toString().toLowerCase().includes("notfound")) {
-                    var image2 = "../images/default.png";
-                } else {
-                    var image2 = aGame2.URL;
-                }
-
-                //listing search result games to the search.html
-                aListing.innerHTML = (
-                    "<div class='flex-container'>" +
-                        "<div  class='parent' id='individualGame'>" +
-                            //div for images
-                            "<div class='child' id='listingThumbnailContainer'>" +
-                                "<a href=game.html?game="+ aGame1.ID + ">" +
-                                "<img id='thumbnail' src=" + image1 + " >" +
-                                "</a>" +
-                                "</div>" +
-                            //div for game details
-                            "<div class='child' id='listingGameDetail'>" +
-                                "<p1>" + aGame1.Name + "</p1>" +
-                                "<p>" + "Year released: " + aGame1.Year + "</p>" +
-                                "<br>" +
-                                "<p>" + "Platform: " + aGame1.Platform + "</p>" +
-                                "<p>" + "Developer: " + aGame1.Developer + "</p>" +
-                                "<p>" + "Global Sales: " + aGame1.Global_Sales + "M" + "</p>" +
-                            "</div>"+
-                        "</div>"+
-                        "<div  class='parent' id='individualGame'>" +
-                            //div for images
-                            "<div class='child' id='listingThumbnailContainer'>" +
-                                "<a href=game.html?game="+ aGame2.ID + ">" +
-                                "<img id='thumbnail' src=" + image2 + " >" +
-                                "</a>" +
-                                "</div>" +
-                            //div for game details
-                            "<div class='child' id='listingGameDetail'>" +
-                                "<p1>" + aGame2.Name + "</p1>" +
-                                "<p>" + "Year released: " + aGame2.Year + "</p>" +
-                                "<br>" +
-                                "<p>" + "Platform: " + aGame2.Platform + "</p>" +
-                                "<p>" + "Developer: " + aGame2.Developer + "</p>" +
-                                "<p>" + "Global Sales: " + aGame2.Global_Sales + "M" + "</p>" +
-                            "</div>"+
-                        "</div>"+
-=======
                 aListing.innerHTML = (
                     "<div class='flex-container' id='individualGame'>" +
                         "<div class='box1' id='listingThumbnailContainer'>" +
@@ -340,12 +314,12 @@ function fetchingJSON () {
                             "<p> Publisher: " + aGame.Publisher + "</p>" +
                             "<p> Year: " + aGame.Year + "</p>" +
                         "</div>" +
->>>>>>> Stashed changes
                     "</div>");
                 $("#listings").append(aListing);
             }
         }
     }).done(function() {
+        console.log("JSON Data Loaded:");
         console.log(matched_listings)
     });
 }
