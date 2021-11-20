@@ -233,6 +233,14 @@ function  filterGames(checkForGenre, checkForPlatform, checkForYear, checkForDev
 }
 
 function displayGames(array_to_display) {
+    // printing the user search input.
+    var input = document.getElementById("infoHeader");
+    input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>"
+        + "<br>" +
+        "<h3>" + "Click on the image for more game information"+ "</h3> + " +
+        "<h3>Diplaying a total of " + array_to_display.length + " results</h3>" );
+
+
     document.getElementById("listings").innerHTML = "";
     for (var aGame of array_to_display) {
         // create a div element to house the game
@@ -318,6 +326,14 @@ function fetchingJSON () {
             }
         }
     }).done(function() {
+        // printing the user search input.
+        var input = document.getElementById("infoHeader");
+        input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>"
+            + "<br>" +
+            "<h3>" + "Click on the image for more game information"+ "</h3> + " +
+            "<h3>Diplaying a total of " + matched_listings.length + " results</h3>" );
+
+
         console.log("JSON Data Loaded:");
         console.log(matched_listings)
     });

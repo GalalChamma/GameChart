@@ -59,11 +59,17 @@ function showTable() {
             {field: "publisher",sortable: true, filter: true, resizable: true},
             {field: "globalSales",sortable: true, filter: true, resizable: true},
             {field: "NASales",sortable: true, filter: true, resizable: true},
-            {field: "PALSales",sortable: true, filter: true, resizable: true}
+            {field: "PALSales",sortable: true, filter: true, resizable: true},
+            {field: "JapanSales",sortable: true, filter: true, resizable: true},
+            {field: "OtherSales",sortable: true, filter: true, resizable: true},
         ];
 
     // Adding all of the games to the rowData array to be used for rows in the table
     for (let i = 0; i < all_listings.length; i++) {
+        // making sure an empty value is replaced with a zero for Japan sales.
+        if (!all_listings[i].JP_Sales > 0) {
+            all_listings[i].JP_Sales = 0;
+        }
         var myObj = {
             action: all_listings[i].ID,
             name: all_listings[i].Name,
@@ -72,9 +78,11 @@ function showTable() {
             platform: all_listings[i].Platform,
             developer: all_listings[i].Developer,
             publisher: all_listings[i].Publisher,
-            globalSales: all_listings[i].Global_Sales,
-            NASales: all_listings[i].NA_Sales,
-            PALSales: all_listings[i].PAL_Sales,
+            globalSales: all_listings[i].Global_Sales + " million",
+            NASales: all_listings[i].NA_Sales + " million",
+            PALSales: all_listings[i].PAL_Sales + " million",
+            JapanSales: all_listings[i].JP_Sales + " million",
+            OtherSales: all_listings[i].Other_Sales + " million",
         }
         rowData.push(myObj);
     }
