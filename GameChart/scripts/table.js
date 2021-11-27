@@ -119,19 +119,26 @@ function showTable() {
 
 
 function getSelectedRowData() {
+
     let selectedNodes = gridOptions.api.getSelectedNodes();
     let selectedData = selectedNodes.map(node => node.data);
-    //alert(`Selected Nodes:\n${JSON.stringify(selectedData)}`);
-    console.log(selectedData);
 
-
-    var gameID1 = selectedData[0].action;
-    var gameID2 = selectedData[1].action;
-
-    IDs = [gameID1, gameID2];
-    console.log(gameID1 + " & " + gameID2);
-
-    window.open('compare.html?game=' + IDs, '_blank').focus();
+    if (selectedData.length == 2) {
+        console.log(selectedData);
+        var gameID1 = selectedData[0].action;
+        var gameID2 = selectedData[1].action;
+        IDs = [gameID1, gameID2];
+        console.log(gameID1 + " & " + gameID2);
+        window.open('compare.html?game=' + IDs, '_blank').focus();
+    }
+    else if (selectedData.length == 1) {
+        alert("Please select another game.");
+    }
+    else if (selectedData.length > 2 ) {
+        alert("More than two games were selected. \nPlease select a maximum of two games.");
+    } else {
+        alert("No game has been selected.\nPlease select two games.");
+    }
 }
 
 

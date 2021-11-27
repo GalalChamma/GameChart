@@ -237,7 +237,7 @@ function displayGames(array_to_display) {
     var input = document.getElementById("infoHeader");
     input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>"
         + "<br>" +
-        "<h3>" + "Click on the image for more game information"+ "</h3> + " +
+        "<h3>" + "Click on the image for more game information"+ "</h3>" +
         "<h3>Diplaying a total of " + array_to_display.length + " results</h3>" );
 
 
@@ -330,7 +330,7 @@ function fetchingJSON () {
         var input = document.getElementById("infoHeader");
         input.innerHTML = ("<h1>" + "Search results for " + "<em>" + searchInput + "</em>" + "</h1>"
             + "<br>" +
-            "<h3>" + "Click on the image for more game information"+ "</h3> + " +
+            "<h3>" + "Click on the image for more game information"+ "</h3> " +
             "<h3>Diplaying a total of " + matched_listings.length + " results</h3>" );
 
 
