@@ -57,3 +57,14 @@ li a:visited {text-decoration: none;}
     width: 80%;
     height: 80%;
 }
+
+#compareBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#compareBtn{
+    height: 50px;
+    width: 100px;
+}

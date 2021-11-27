@@ -1,0 +1,8 @@
+#listings{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#anElement{
+    margin: 100px;
+}

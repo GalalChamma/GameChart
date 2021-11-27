@@ -1,8 +1,10 @@
 var all_listings = [];
 
+var gridOptions = null;
 
 $(document).ready(function () {
     fetchingJSON();
+    document.getElementById("compareBtn").onclick = getSelectedRowData;
 });
 
 
@@ -37,6 +39,9 @@ function showTable() {
 
     // specify the columns
     const columnDefs = [
+            {
+                checkboxSelection: true, field: ' ', sortable: false, filter: false, resizable: false,
+            },
             {
                 field: 'action',
                 cellRenderer: 'btnCellRenderer',
@@ -88,13 +93,13 @@ function showTable() {
     }
 
 
-
     // let the grid know which columns and what data to use
-    const gridOptions = {
+    gridOptions = {
         columnDefs: columnDefs,
         rowData: rowData,
         pagination: true,
         paginationPageSize: 100,
+        rowSelection: 'multiple',
         components: {
             btnCellRenderer: ViewButton
         }
@@ -107,9 +112,26 @@ function showTable() {
     new agGrid.Grid(eGridDiv, gridOptions)
     //gridOptions.columnApi.autoSizeAllColumns();
     //gridOptions.api.sizeColumnsToFit();
-    gridOptions.columnApi.autoSizeColumns(['action','name','yearReleased','genre','platform','developer','publisher','globalSales','naSales','palSales'], false);
+    gridOptions.columnApi.autoSizeColumns([' ','action','name','yearReleased','genre','platform','developer','publisher','globalSales','naSales','palSales'], false);
 
 
+}
+
+
+function getSelectedRowData() {
+    let selectedNodes = gridOptions.api.getSelectedNodes();
+    let selectedData = selectedNodes.map(node => node.data);
+    //alert(`Selected Nodes:\n${JSON.stringify(selectedData)}`);
+    console.log(selectedData);
+
+
+    var gameID1 = selectedData[0].action;
+    var gameID2 = selectedData[1].action;
+
+    IDs = [gameID1, gameID2];
+    console.log(gameID1 + " & " + gameID2);
+
+    window.open('compare.html?game=' + IDs, '_blank').focus();
 }
 
 
