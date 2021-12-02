@@ -1,32 +1,3 @@
-// THINGS Accomplished yesterday
-// 1. Clean things up
-// 2. Implement a next and prev buttons -- All you gotta do is do for(i = starting_index_multiBarChart - 10; i > starting_index_multiBarChart; i++) right? :)
-// 3. Add filter feature - shouldn't be hard
-// 4. Fix those bloody awful variable names.   (Still work in progress lol)
-
-
-// THINGS accomplished TODAY
-// 1. Add an additional option to Chart filter --> Filter by Game Name! :)
-// 2. Make the small chart a PIE chart and add the missing info to its methods (Initialization and Updating methods) methods.
-// 3. Add a 3rd chart of type doughnut. So it would be one main chart up top and 2 small ones below it.
-// 4. Make the games inside the charts clickable. (NEW TAB!, not the same page)
-// 5. Have Five buttons for the two smaller charts. One button for each type of sale. Clicking "Japan" will switch the pie chart to japan sales and so on.
-
-
-
-// THINGS TO DO TOMORROW
-// 1. make mini chart buttons work
-// 2. Implement a FILTERED green box or something that lets the user know their data has been filtered
-//    It's probably smart to have displayed for each chart. Not just one.
-
-
-// if array displayed of size 11, it only displays the first 10 then disables the buttons for next.
-// is there a way around it? do we just display 1 remaining game by itself? ;/
-
-
-
-
-
 var ALLGAMES = [];
 var displayedGames = []
 var games_after_filter = []
@@ -38,10 +9,6 @@ var multiBarChart = null;
 var starting_index_multiBarChart= 0;
 var starting_index_pieChart = 0;
 var starting_index_doughnutChart = 0;
-
-const NUM_OF_GAMES_PER_CHART = 10;
-
-
 
 
 const BACKGROUND_COLOR = [
@@ -111,10 +78,44 @@ $(document).ready(function () {
         goBackward();
     };
 
+
+    // Pie mini chart -- 5 mode buttons
+    document.getElementById("miniPieGlobal").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "pie", "Global");
+    };
+    document.getElementById("miniPieNA").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "pie", "NA");
+    };
+    document.getElementById("miniPiePAL").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "pie", "PAL");
+    };
+    document.getElementById("miniPieJapan").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "pie", "Japan");
+    };
+    document.getElementById("miniPieOther").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "pie", "Other");
+    };
+
+
+    // Doughnut mini chart -- 5 mode buttons
+    document.getElementById("miniDoughnutGlobal").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "doughnut", "Global");
+    };
+    document.getElementById("miniDoughnutNA").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "doughnut", "NA");
+    };
+    document.getElementById("miniDoughnutPAL").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "doughnut", "PAL");
+    };
+    document.getElementById("miniDoughnutJapan").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "doughnut", "Japan");
+    };
+    document.getElementById("miniDoughnutOther").onclick = function (){
+        UpdateMiniChartMode(displayedGames, "doughnut", "Other");
+    };
+
     // Get the Json Data!
     fetchingJSON();
-
-
 });
 
 
@@ -219,7 +220,7 @@ function SetupSecondaryChart_Pie() {
             plugins: {
                 title:{
                     display:true,
-                    text:'Sales - Pie Chart',
+                    text:'Global Sales',
                     fontSize:25
                 },
                 legend: {
@@ -290,7 +291,7 @@ function SetupSecondaryChart_Doughnut() {
             plugins: {
                 title:{
                     display:true,
-                    text:'Sales - Doughnut Chart',
+                    text:'Global Sales',
                     fontSize:25
                 },
                 legend: {
@@ -350,6 +351,7 @@ function graphClickEvent(event, array){
         }
     }
 }
+
 
 // only for a pie chart or doughnut chart (not for bar chart)
 function graphClickEvent2(event, array){
@@ -592,8 +594,71 @@ function UpdatePieChart(array, forward) {
         }]
     };
     pieChart.data = data;
+    pieChart.options.plugins.title.text = "Global Sales";
     pieChart.update();
 }
+
+
+// updates the mini chart based on one of the five buttons clicked (Global, NA, PAL, Japan, or Other).
+function UpdateMiniChartMode(array, chartName, mode) {
+    var chart = null;
+    if (chartName.toLowerCase() == "pie"){
+        chart = pieChart;
+    } else if (chartName.toLowerCase() == "doughnut"){
+        chart = doughnutChart;
+    }
+    if (starting_index_pieChart - 10 >= 0) {
+        var index = starting_index_pieChart - 10;
+    } else {
+        var index = 0;
+    }
+    data_ = [];
+    labels_ = [];
+    for (var i = 0; i < 10; i++) {
+        if (displayedGames[index]!=null) {
+            if (mode.toLowerCase() == "global"){
+                console.log("global detected");
+                data_.push(displayedGames[index].Global_Sales);
+            } else if (mode.toLowerCase()  == "na"){
+                data_.push(displayedGames[index].NA_Sales);
+                console.log("NA detected");
+            }else if (mode.toLowerCase()  == "japan"){
+                data_.push(displayedGames[index].JP_Sales);
+            }else if (mode.toLowerCase()  == "pal"){
+                data_.push(displayedGames[index].PAL_Sales);
+            }else if (mode.toLowerCase()  == "other"){
+                data_.push(displayedGames[index].Other_Sales);
+            }
+            labels_.push(displayedGames[index].Name + " ("+  displayedGames[index].Platform.toString() + ")");
+            index++;
+        }
+    }
+
+    var data = {
+        labels: labels_,
+        datasets: [{
+            label: 'My First dataset',
+            data: data_,
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',
+                'rgba(255, 145, 191,0.6)',
+                'rgba(152, 226, 247, 0.6)',
+                'rgba(205, 241, 174, 0.6)',
+                'rgba(200, 150, 145, 0.6)',
+                'rgba(200, 150, 145, 0.6)'
+            ],
+        }]
+    };
+    chart.data = data;
+    chart.options.plugins.title.text = mode + " Sales";
+    chart.update();
+}
+
 
 function UpdateDoughnutChart(array, forward) {
     var index = null;
@@ -636,6 +701,7 @@ function UpdateDoughnutChart(array, forward) {
         }]
     };
     doughnutChart.data = data;
+    doughnutChart.options.plugins.title.text = "Global Sales";
     doughnutChart.update();
 }
 
