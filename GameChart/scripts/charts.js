@@ -617,11 +617,9 @@ function UpdateMiniChartMode(array, chartName, mode) {
     for (var i = 0; i < 10; i++) {
         if (displayedGames[index]!=null) {
             if (mode.toLowerCase() == "global"){
-                console.log("global detected");
                 data_.push(displayedGames[index].Global_Sales);
             } else if (mode.toLowerCase()  == "na"){
                 data_.push(displayedGames[index].NA_Sales);
-                console.log("NA detected");
             }else if (mode.toLowerCase()  == "japan"){
                 data_.push(displayedGames[index].JP_Sales);
             }else if (mode.toLowerCase()  == "pal"){
